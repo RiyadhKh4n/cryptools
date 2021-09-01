@@ -103,6 +103,7 @@ Here describes the main features of the website and what the user can expect whe
 
     *INCLUDE IMAGE OF THE PAGE HERE*
 
+## Features Left to Implement:
 
 # Technologies Used ~
 
