@@ -82,16 +82,28 @@ Here describes the main features of the website and what the user can expect whe
 * Centralisation vs. Decentralisation Section
     - This part of the website will help solidify their basic understadning with giving them a brief overview and comparision between the two i.e C vs. D. Getting a strong grasp of this concept is important as this is the whole foundation on what crypto and blockchain is founded on.
 
+    *INCLUDE IMAGE OF THE SECTION HERE*
+
 * Proof of Stake vs. Proof of Work Section
     - Getting a grasp of these two concepts is also important as it is only way cryptocurrencies are formed / mined and put into circulation for purchase.
     - Understadning the difference between the two allows the user to be aware of how the price of the coin will fluctuate and gives an insight into potential price action (PA) as halvings and buring occur
 
+    *INCLUDE IMAGE OF THE SECTION HERE*
+
 * Tokenomics Page
-    -
+    - Tokenomics is the collection of metrics determining the quality and supply of an asset
+    - This page will give the user a basic understanding of the complex world of tokenomics and the importance of being able to differentiate between good and bad tokenomics which will allow you to make better investment decisions in the future and help avoid the chance of being involved in a rug pull or scam
+
+    *INCLUDE IMAGE OF THE PAGE HERE*
 
 * Where to Buy Page
-    -
-    
+    - There are many places to buy crypto now and chosing the right place can be a challenge in itself. This section of the webiste will give users a comprehensive guide of how and where to buy cryptos as well as important aspects like security and the advantages and disadvanatges of certain exchanges
+    - Furthermore this page will compare the difference between Decentralised Exchanges (DEXs) and Centralised Exchanges (CEXs) and give the top exchanges for each
+
+
+    *INCLUDE IMAGE OF THE PAGE HERE*
+
+
 # Technologies Used ~
 
 ## Languages Used
