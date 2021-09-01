@@ -1,104 +1,129 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Crypto *something*
 
-Welcome Arkay,
+[](View the live project here)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+________ is a website focused to enhance the knowledge of people who want to learn and get involved with crypto and the blockchain insdustry. It is an informative website where they can learn 'What the Importance of Crypto is' and why they should care about it. As well as learn the basic fundamntals of centralisation vs. decentralisation and the important role crypto is playing in giving the power back to the people.
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+ _______ also covers the basics of the two ways cryptos are generated i.e Proof of Stake and Proof of Work and the top coins within each category. Furthermore users are able to learn to value of Tokenomics which is a way to differentiate good coins and which coins to avoid. Finally, users are able to get their foot in the door by reading the 'Where to Buy' section whcih will give them all the valuable informaiton they need when making that important first step.  
 
 ---
+Image from AmIResponisve goes here
 
-Happy coding!
+---
+# User Experience (UX) ~
+
+
+* ## User Stories
+    * #### First Time Visitor Goals:
+        1. As a First Time Visitor, I want to be able to easily understand the intention of the website and to leave with knowledge about cryptocurencies.
+
+        2. As a First Time Visitor, I was to ensure I can easily navigate through the webiste and ensure all links direct me to the correct section of the website.
+
+        3. As a First Time Visitor, I want ensure no linked videos play without my discretion and all navigation links open in a new tab.
+
+    * #### Returing Visitor Goals:
+        1. As a Returning Visitor, I want to find information about cryptocurrencies to be accurate and up-to-date. 
+
+        2. As a Returning Visitor, I want to find any links to crypto influencers who can aid my learning developmenet.
+
+    * #### Frequent User Goals:
+        1. As a Frequent User, I want to check to see if there have been any new updates added to the website, that can inhance my knowledge.
+
+        2. As a Frequent User, I want to see if any new links have been added so that I can stay up - to -date with crypto analysits. 
+    
+* ## Design ~
+
+    * Colour Scheme:
+
+        - The two main colours for CryptoTools is _______ and _______. They are clean contrasting colour 
+
+    * Typography:
+
+        - The ______ font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly or the web browser not being able to support the Google Font. _________ is a clean and modern font, so it is both attractive and appropriate.
+
+    * Imagery:
+
+        - Imagery is important, it makes the webpage more aesthetic and helps break up the sections by not having too much text on one page, which may dissatisfy users. The hero image is designed to be striking and catch the user's attention. It is also relevant to the website and helps make the inital user experience to be more positive.
+
+* ## Wireframes
+
+    * Home Page Wireframe - [View]
+    * Tokenomics Page Wireframe - [View]
+    * Where to Buy Page Wireframe - [View]
+
+
+# Features ~
+
+INSERT FEATURES HERE
+
+# Testing ~
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+    - W3C Markup Validator - Results
+    - W3C CSS Validator - Results
+
+## Testing User Stories from User Experience (UX) Section
+
+* ### First Time Visitor Goals:
+
+* ### Returning Visitor Goals:
+
+* ### Frequent Userr Goals:
+
+    
+
+
+
+# Depolyment ~
+
+## GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+    1. Log in to GitHub and locate the GitHub Repository
+
+    2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    
+    4. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+    Under "Source", click the dropdown called "None" and select "Master Branch".
+   
+    5. The page will automatically refresh.
+    
+    6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+## Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+    1. Log in to GitHub and locate the GitHub Repository
+    2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+    3. You should now have a copy of the original repository in your GitHub account.
+
+
+## Making a Local Clone
+
+    1. Log in to GitHub and locate the GitHub Repository
+    2. Under the repository name, click "Clone or download".
+    3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+    4. Open Git Bash
+    5. Change the current working directory to the location where you want the cloned directory to be made.
+    6. Type git clone, and then paste the URL you copied in Step 3.
+
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+    7. Press Enter. Your local clone will be created. 
+
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    > Cloning into `CI-Clone`...
+    > remote: Counting objects: 10, done.
+    > remote: Compressing objects: 100% (8/8), done.
+    > remove: Total 10 (delta 1), reused 10 (delta 1)
+    > Unpacking objects: 100% (10/10), done.
+
+
+# Depolyment ~
+
+## Code
+
+    
