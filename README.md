@@ -201,6 +201,12 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 # Credits ~
 
+## Content
+
+
+## Media
+* The photos used on the home page are from This (include link) Open Source site
+
 ## Code
 
-    
+---
