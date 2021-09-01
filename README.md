@@ -56,8 +56,42 @@ Image from AmIResponisve goes here
 
 # Features ~
 
-INSERT FEATURES HERE
+Here describes the main features of the website and what the user can expect when viewing ~
+## Existing Features:
 
+* Navigation Bar
+    - Features on all pages, the fully responsive navigation bar includes links to the Home Page, Why Should you Care section, the Centralised vs. Decentraslied section and the Tokenomics and Where to Buy pages.
+
+    - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous bage via the 'back' button.
+
+    *INCLUDE IMAGE OF NAV BAR HERE*
+
+* The landing page image
+    - The landing page includes a photograph with text overlay to improve aesthetic appearance of the page and to not bombard the user with text as soon as they land on the page. 
+
+    - This section introduces the user to ______ with an eye catching animation to grab their attention
+
+      *INCLUDE IMAGE OF HERO IMAGE HERE*
+
+* Why Should You Care Section
+    - This section is the first part of the webpage the user will see. It provides an overview of what crypto is, the main usecases as well as why the technology is important.
+    - It introduces the user to the topic and will give them a basic understanding of what the purpose of crypto is and the power it can play
+    
+      *INCLUDE IMAGE OF THE SECTION HERE*
+
+* Centralisation vs. Decentralisation Section
+    - This part of the website will help solidify their basic understadning with giving them a brief overview and comparision between the two i.e C vs. D. Getting a strong grasp of this concept is important as this is the whole foundation on what crypto and blockchain is founded on.
+
+* Proof of Stake vs. Proof of Work Section
+    - Getting a grasp of these two concepts is also important as it is only way cryptocurrencies are formed / mined and put into circulation for purchase.
+    - Understadning the difference between the two allows the user to be aware of how the price of the coin will fluctuate and gives an insight into potential price action (PA) as halvings and buring occur
+
+* Tokenomics Page
+    -
+
+* Where to Buy Page
+    -
+    
 # Technologies Used ~
 
 ## Languages Used
