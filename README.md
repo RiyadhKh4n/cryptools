@@ -45,6 +45,8 @@ Image from AmIResponisve goes here
 
         - Imagery is important, it makes the webpage more aesthetic and helps break up the sections by not having too much text on one page, which may dissatisfy users. The hero image is designed to be striking and catch the user's attention. It is also relevant to the website and helps make the inital user experience to be more positive.
 
+
+
 * ## Wireframes
 
     * Home Page Wireframe - [View]
@@ -122,7 +124,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
     > Unpacking objects: 100% (10/10), done.
 
 
-# Depolyment ~
+# Credits ~
 
 ## Code
 
