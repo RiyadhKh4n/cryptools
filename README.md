@@ -65,7 +65,29 @@ INSERT FEATURES HERE
 - HTML5 <--- Add link to HTML5 wiki 
 - CSS3 <--- Add Link to CSS3 Wiki
 
-## Frameworks, Libraries & Programs Used
+## Frameworks, Libraries & Programs Used:
+
+1. Hover.css:
+    * Hover.css was used on the navigation bar to help identify to the user what section they are about to select
+
+2. Google Fonts:
+    * Google fonts were used to import the '________' font into the style.css file which is used on all pages throughout the project.
+
+3. Font Awesome:
+    * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+4. Git:
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+5. GitHub:
+    * GitHub is used to store the projects code after being pushed from Git. It was also used to deploy the project (GitHub Pages)
+
+6. Flexbox:
+    * Flexbox was used to help with the layout and responsivness of the webpage
+
+7. Balsamiq:
+    * Balsamiq was used to create the wireframes during the design process.
+
 
 # Testing ~
 
