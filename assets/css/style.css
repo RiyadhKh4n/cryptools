@@ -9,7 +9,107 @@
 body{
     font-family: Work Sans, sans-serif;
     font-weight: 400;
-    color: #3a3a3a;
+    color: white;
+  
+}
+
+#pageContainer{
+    display: flex;  
+}
+
+header{
+    background:#bada55;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 /* heading and logo */
+
+
+nav{
+    position:absolute;
+    text-align: left;
+    top:100%;
+    left:0;
+    background: #bada55;
+    width:100%;
+    display:none;
+}
+
+/* burger menu animation*/
+.nav-toggle{
+    display:none;
+}
+
+.toggle-label{
+    position:absolute;
+    top:0;
+    left:0;
+    margin-left:1em;
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-label span,
+.toggle-label span::before,
+.toggle-label span::after{
+    display:block;
+    background: purple;
+    height:2px;
+    width:2em;
+    border-radius: 5px;
+    position: relative;
+}
+
+.toggle-label span::before,
+.toggle-label span::after{
+    content:''; /* ensure the lines pop up */
+    position: absolute;
+}
+
+.toggle-label span::before{
+    bottom: 7px;
+}
+
+.toggle-label span::after{
+    top:7px;
+}
+
+/* heading and logo */
+
+#menu{
+    list-style: none;
+}
+
+.navLinks{
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.uppercase{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:1rem;
+}
+
+.NavALowercase{
+    color:black;
+    text-decoration: none;
+    font-size:1rem;
+}
+
+#menu a:hover{
+    color:orange;
+
+}
+
+.nav-toggle:checked ~ nav{
+    display:block;
+
+}
+
+
