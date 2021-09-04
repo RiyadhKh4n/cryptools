@@ -99,10 +99,18 @@ h1, h2{
 
 
 /* Why Should You Care Section */
-#WYSB-container{
+#intro-container{
     background-color: pink;
         
  
+}
+
+#intro-container h2{
+    color:white;
+}
+
+#intro-container h2{
+    text-align: center;
 }
 
 /* Centralised vs. Decentralised */
@@ -110,28 +118,57 @@ h1, h2{
     background: green;
     display:flex;
 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 
-    
     
 }
 
 #CvD-container h2{
     color: white;
     text-align: center;
+   
 }
 
 #CvD-container div{
     border: 3px solid orange;
-    padding: 10px;
+    
+    width: 500px;
+    height: 500px;
+
+    margin-top:30px;
+    margin-bottom: 15px;
+    padding:15px;
 }
 
 .CvD-box{
-    flex-basis: 100%;
+    
 }
 
 /* Proof of Stake vs Proof of Work */
 #PoS-PoW-container{
     background: blue;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#PoS-PoW-container h2{
+    color: white;
+    text-align: center;
+}
+
+#PoS-PoW-container div{
+    border: 3px solid orange;
+    
+    width: 500px;
+    height: 500px;
+
+    margin-top:30px;
+    margin-bottom: 15px;
+    padding:15px;
+
 }
 
 /* Footer */
