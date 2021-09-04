@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200&family=Poppins&family=Space+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 *{
     margin: 0;
@@ -21,19 +23,25 @@ body{
 }
 
 /* heading and logo */
-
+header{
+   top:0;
+}
 
 h1, h2{
-    font-family: Oswald, sans-serif;
+    font-family: Space Mono, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525; 
 }
 
 .logo{
-    float: left;
+    float:left;
+    font-family:Shrikhand, sans-serif;
+    color: #542D9E;
     font-size: 280%;
-    margin-left: 30px;
+    padding-top: 18px;
+    padding-left: 30px;
+
 }
 
 .menu{
@@ -48,7 +56,14 @@ h1, h2{
 .menu li{
     float: right;
     list-style: none;
-    margin-right: 30px;
+    padding-top: 16px;
+    margin-right: 10px;
+    padding-right: 10px;
+    
+}
+
+.menu a{
+    padding: 12px;
 }
 
 .menu a{
@@ -58,11 +73,14 @@ h1, h2{
 }
 
 .menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+    border: 2px solid #542D9E;
+    
 }
 
 .active{
-    border-bottom: 1px solid #3a3a3a;
+    border: 2px solid#542D9E;
+    padding: 12px;
+    
 }
 
 .nav-toggle{
@@ -70,22 +88,45 @@ h1, h2{
 }
 
 /* hero image */
+#hero-outer{
+    height: 600px;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+    background-color: red;
 
-#hero-image{
-    background-color: green;
 }
+
 
 /* Why Should You Care Section */
 #WYSB-container{
-    background-color: red;
-    height: 100vh    
+    background-color: pink;
+        
  
 }
 
 /* Centralised vs. Decentralised */
 #CvD-container{
     background: green;
+    display:flex;
 
+
+    
+    
+}
+
+#CvD-container h2{
+    color: white;
+    text-align: center;
+}
+
+#CvD-container div{
+    border: 3px solid orange;
+    padding: 10px;
+}
+
+.CvD-box{
+    flex-basis: 100%;
 }
 
 /* Proof of Stake vs Proof of Work */
@@ -97,111 +138,111 @@ h1, h2{
 footer{
     background: orange;
     padding:1em;
-    position:fixed;
+
     bottom:0; width: 100%;
 }
 
-@media screen and (max-width: 800px){
-    header{
-        background:white;
-        text-align: center;
-        position: fixed;
-        width: 100%;
-        z-index: 999;
-        padding-top: .5em;
-        padding-bottom: .5em;
+
+@media screen and (max-width: 1440px){
+    .logo{
+        float:left;
+        font-family:Shrikhand, sans-serif;
+        color: #542D9E;
+        font-size: 180%;
+        padding-top: 25px;
+        margin-left: 50px;
+    
     }
-    
-    /* burger menu animation*/
-    
-    .nav-toggle{
-        display:none;
-    }
-    
-    .toggle-label{
-        position:absolute;
-        top:0;
-        left:0;
-        margin-left:1em;
-        height:100%;
-        display: flex;
-        align-items: center;
-    }
-    
-    .toggle-label span,
-    .toggle-label span::before,
-    .toggle-label span::after{
-        display:block;
-        background: purple;
-        height:2px;
-        width:2em;
-        border-radius: 5px;
-        position: relative;
-    }
-    
-    .toggle-label span::before,
-    .toggle-label span::after{
-        content:''; /* ensure the lines pop up */
-        position: absolute;
-    }
-    
-    .toggle-label span::before{
-        bottom: 7px;
-    }
-    
-    .toggle-label span::after{
-        top:7px;
-    }
-    
-    /* heading and logo */
-    
-    nav{
-        position:absolute;
-        text-align: left;
-        top:100%;
-        left:0;
-        background: white;
-        width:100%;
-    
-        /*making the transition */
-    
-        transform: scale(1, 0);
-        transform-origin: top;
-        transition: transform 400ms ease-in-out;
-    }
-    
+
     .menu{
-        list-style: none;
+        font-size:80%;
+        letter-spacing: 2px;
     }
-    
+
     .menu li{
-        margin-bottom: 0.5em;
-        margin-left: 1em;
-    }
-    
-    .NavA{
-        color:rgb(141, 42, 187);
-        text-decoration: none;
-        font-size:1.2em;
-        opacity:0;
-    
-        transition: opacity 150ms ease-in-out ;
-    }
-    
-    .menu a:hover{
-        color:purple;
-    
-    }
-    
-    .nav-toggle:checked ~ nav{
-        transform: scale(1,1);
-     
-    }
-    
-    .nav-toggle:checked ~ nav a{
-        opacity:1;    
-        transition: opacity 250ms ease-in-out 250ms;
+        float: right;
+        list-style: none;
+        padding-top: 10px;
+        margin-right: 6px;
+        padding-right: 6px;
         
+    }
+    
+    .menu a{
+        padding: 6px;
     }
 
 }
+
+@media screen and (max-width: 1024px){
+    .logo{
+        font-family:Shrikhand, sans-serif;
+        color: #542D9E;
+        font-size: 180%;
+        padding-top: 25px;
+        padding-left: 360px;
+    
+    }
+
+    .menu{
+        float: left;
+        margin-left: 80px;
+   
+
+    }
+
+    .menu li{
+        font-size: 1em;
+     
+    }
+
+}
+
+@media screen and (max-width: 858px){
+    .logo{
+        font-family:Shrikhand, sans-serif;
+        color: #542D9E;
+        font-size: 150%;
+        padding-top: 25px;
+        padding-left: 300px;
+    
+    }
+
+    .menu{
+        float: left;
+        margin-left: 25px;
+   
+    }
+
+    .menu li{
+        font-size: 1.1em;
+     
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        font-family:Shrikhand, sans-serif;
+        color: #542D9E;
+        font-size: 150%;
+        padding-top: 25px;
+        padding-left: 260px;
+    
+    }
+
+    .menu{
+        float: left;
+       
+   
+    }
+
+    .menu li{
+        font-size: 1em;
+     
+    }
+    
+}
+}
+
+
