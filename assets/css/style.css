@@ -15,6 +15,10 @@ body{
   
 }
 
+p{
+    font-family: Space Mono, sans-serif;
+}
+
 /* container div */
 
 #pageContainer{
@@ -100,38 +104,96 @@ h1, h2{
 
 /* Why Should You Care Section */
 #intro-container{
-    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+   
         
- 
 }
 
-#intro-container h2{
-    color:white;
+#Intro2Crypto-div{
+    width:100%;
+    margin: 1em;
 }
 
-#intro-container h2{
+#Intro2Crypto-div h2{
+    color: #542D9E;
     text-align: center;
 }
 
-/* Centralised vs. Decentralised */
-#CvD-container{
-    background: green;
-    display:flex;
+.WhatIsCrypto-div{
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid #542D9E;
+}
 
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+#first-2-boxes-container{    
+    display:flex;
+}
+
+#first-2-boxes-container > *{
+    flex-basis:100%;
+    border: 2px solid #542D9E;
+    margin: 1em;
+    padding: 1em;
+    overflow: auto;
+}
+
+/*
+.WIC-left-box{
+
+    width: 300px;
+    height: 300px;
+
+
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid #542D9E;
+
+    width:50%;
 
     
 }
 
-#CvD-container h2{
-    color: white;
-    text-align: center;
-   
+*/
+
+
+.info{
+    text-align: justify;
 }
 
+/* Centralised vs. Decentralised */
+#CvD-container{
+  
+
+
+    /*
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    */
+    
+}
+
+#CvD-title{
+    width: 100%;
+    margin:1em;
+}
+
+#CvD-title h2{
+    color:#542D9E;
+    text-align: center;
+}
+
+.CvD-box{
+
+    border: solid 2px green;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+/*
 #CvD-container div{
-    border: 3px solid orange;
+    
     
     width: 500px;
     height: 500px;
@@ -141,9 +203,9 @@ h1, h2{
     padding:15px;
 }
 
-.CvD-box{
-    
-}
+*/
+
+
 
 /* Proof of Stake vs Proof of Work */
 #PoS-PoW-container{
@@ -160,7 +222,7 @@ h1, h2{
 }
 
 #PoS-PoW-container div{
-    border: 3px solid orange;
+    border: 3px solid #542D9E;
     
     width: 500px;
     height: 500px;
