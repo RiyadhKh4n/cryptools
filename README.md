@@ -1,10 +1,10 @@
-# Crypto *something*
+# Cryptotools
 
 [](View the live project here)
 
-________ is a website focused to enhance the knowledge of people who want to learn and get involved with crypto and the blockchain insdustry. It is an informative website where they can learn 'What the Importance of Crypto is' and why they should care about it. As well as learn the basic fundamntals of centralisation vs. decentralisation and the important role crypto is playing in giving the power back to the people.
+Cryptools is a website focused to enhance the knowledge of people who want to learn and get involved with crypto and the blockchain insdustry. It is an informative website where they can learn 'What the Importance of Crypto is' and why they should care about it. As well as learn the basic fundamntals of centralisation vs. decentralisation and the important role crypto is playing in giving the power back to the people.
 
- _______ also covers the basics of the two ways cryptos are generated i.e Proof of Stake and Proof of Work and the top coins within each category. Furthermore users are able to learn to value of Tokenomics which is a way to differentiate good coins and which coins to avoid. Finally, users are able to get their foot in the door by reading the 'Where to Buy' section whcih will give them all the valuable informaiton they need when making that important first step.  
+Cryptools also covers the basics of the two ways cryptos are generated i.e Proof of Stake and Proof of Work and the top coins within each category. Furthermore users are able to learn to value of Tokenomics which is a way to differentiate good coins and which coins to avoid. Finally, users are able to get their foot in the door by reading the 'Where to Buy' section whcih will give them all the valuable informaiton they need when making that important first step.  
 
 ---
 Image from AmIResponisve goes here
