@@ -59,6 +59,7 @@ Image from AmIResponisve goes here
     ![Tokenomics Wireframe](doc/wireframes/tokenomics.png)
 
     * Where to Buy Page Wireframe
+
     ![WHere To Buy Wireframe](doc/wireframes/where2buy.png)
 
 
@@ -197,17 +198,18 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied in Step 3.
 
-    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    $ `git clone https://github.com/RiyadhKh4n/cryptools.git` 
 
 7. Press Enter. Your local clone will be created. 
 
-    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-    > Cloning into `CI-Clone`...
-    > remote: Counting objects: 10, done.
-    > remote: Compressing objects: 100% (8/8), done.
-    > remove: Total 10 (delta 1), reused 10 (delta 1)
-    > Unpacking objects: 100% (10/10), done.
-
+```
+$ git clone https://github.com/RiyadhKh4n/cryptools.git
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
 # Credits ~
 
