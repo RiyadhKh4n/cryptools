@@ -1,4 +1,4 @@
-# Cryptotools
+# Cryptools
 
 [](View the live project here)
 

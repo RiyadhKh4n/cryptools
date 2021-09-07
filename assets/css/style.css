@@ -66,14 +66,12 @@ h1, h2{
     
 }
 
-.menu a{
-    padding: 12px;
-}
 
 .menu a{
     text-decoration: none;
     color: inherit;
-
+    border: 2px solid white;
+    padding: 12px;
 }
 
 .menu a:hover{
@@ -82,7 +80,7 @@ h1, h2{
 }
 
 .active{
-    border: 2px solid#542D9E;
+    border: 2px solid #542D9E;
     padding: 12px;
     
 }
@@ -165,7 +163,7 @@ h1, h2{
 #CvD-container{
   
 
-
+    background-color: #D3D3D3;
     /*
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -186,7 +184,7 @@ h1, h2{
 .CvD-box{
 
     border: solid 2px green;
-    margin: 1em;
+   
     padding: 1em;
 }
 
@@ -269,6 +267,7 @@ footer{
     
     .menu a{
         padding: 6px;
+        border: 2px solid white;
     }
 
 }
