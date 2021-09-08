@@ -17,6 +17,14 @@ body{
   
 }
 
+h1, h2{
+    font-family: Space Mono, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525; 
+}
+
+
 p{
     font-family: Space Mono, sans-serif;
 }
@@ -43,13 +51,6 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-}
-
-h1, h2{
-    font-family: Space Mono, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525; 
 }
 
 .logo{
@@ -144,8 +145,8 @@ h1, h2{
 /* Centralised vs. Decentralised */
 #CvD-container{
   
-
     background-color: #D3D3D3;
+   
     /*
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -166,51 +167,49 @@ h1, h2{
 .CvD-box{
 
     border: solid 2px green;
-   
+    
     padding: 1em;
 }
 
 
-/*
-#CvD-container div{
-    
-    
-    width: 500px;
-    height: 500px;
-
-    margin-top:30px;
-    margin-bottom: 15px;
-    padding:15px;
-}
-
-*/
-
-
-
 /* Proof of Stake vs Proof of Work */
-#PoS-PoW-container{
-    background: blue;
-    display: flex;
 
+#PoS-PoW-container{
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    
+    background: lightblue;
 }
 
-#PoS-PoW-container h2{
-    color: white;
+#PoSW-div{
+    width:100%;
+    margin: 1em;
+}
+
+#PoSW-div h2{
+    color: #542D9E;
     text-align: center;
 }
 
-#PoS-PoW-container div{
-    border: 3px solid #542D9E;
-    
-    width: 500px;
-    height: 500px;
+#PoSW-info-container{
+    display: flex;
+   
+    border: 2px solid red;
+    margin: 1em;
+}
 
-    margin-top:30px;
-    margin-bottom: 15px;
-    padding:15px;
+#PoSW-info-container > *{
+    flex-basis:100%;
+    border: 2px solid #542D9E;
+    margin: 1em;
+    padding: 1em;
+    overflow: auto;
+}
 
+.PoSW-box{
+    border: 2px solid green;
+    margin: 1em;
+    padding: 1em;
 }
 
 /* Footer */
