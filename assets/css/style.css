@@ -144,32 +144,31 @@ header{
 
 /* Centralised vs. Decentralised */
 #CvD-container{
+    background-color: lightgray;
   
-    background-color: #D3D3D3;
-   
-    /*
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    */
-    
 }
 
-#CvD-title{
+#CvD-div{
     width: 100%;
     margin:1em;
+    padding:1em;
 }
 
-#CvD-title h2{
+#CvD-div h2{
     color:#542D9E;
     text-align: center;
 }
 
-.CvD-box{
-
-    border: solid 2px green;
-    
+.CvD-overview{
+  
     padding: 1em;
 }
+
+.CvD-box{
+  
+    padding: 1em;
+}
+
 
 
 /* Proof of Stake vs Proof of Work */
@@ -191,11 +190,12 @@ header{
     text-align: center;
 }
 
+
+
 #PoSW-info-container{
     display: flex;
-   
-    border: 2px solid red;
-    margin: 1em;
+    
+    
 }
 
 #PoSW-info-container > *{
@@ -206,11 +206,9 @@ header{
     overflow: auto;
 }
 
-.PoSW-box{
-    border: 2px solid green;
-    margin: 1em;
-    padding: 1em;
-}
+
+
+
 
 /* Footer */
 footer{
