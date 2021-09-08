@@ -49,18 +49,18 @@ Image from AmIResponisve goes here
 
 * ## Wireframes
 
-    * Home Page Wireframe 
+    * ### Home Page Wireframe 
 
-    ![Home Wireframe](doc/wireframes/home.png)
+    ![Home Wireframe](documents/wireframes/home.png)
 
 
-    * Tokenomics Page Wireframe
+    * ### Tokenomics Page Wireframe
 
-    ![Tokenomics Wireframe](doc/wireframes/tokenomics.png)
+    ![Tokenomics Wireframe](documents/wireframes/tokenomics.png)
 
-    * Where to Buy Page Wireframe
+    * ### Where to Buy Page Wireframe
 
-    ![WHere To Buy Wireframe](doc/wireframes/where2buy.png)
+    ![WHere To Buy Wireframe](documents/wireframes/where2buy.png)
 
 
 
