@@ -35,11 +35,11 @@ Image from AmIResponisve goes here
 
     * Colour Scheme:
 
-        - The two main colours for CryptoTools is _______ and _______. They are clean contrasting colour 
+        - The two main colours for Cryptools are purple and black. They are clean contrasting colours that pop. 
 
     * Typography:
 
-        - The ______ font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly or the web browser not being able to support the Google Font. _________ is a clean and modern font, so it is both attractive and appropriate.
+        - The 'Space Mono' font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly or the web browser not being able to support the Google Font. 'Shrikhand' is used for the logo and is a clean and modern font, so it is both attractive and appropriate. Finally 'Work Sans' is used for headings. 
 
     * Imagery:
 
@@ -129,7 +129,7 @@ Here describes the main features of the website and what the user can expect whe
     * Hover.css was used on the navigation bar to help identify to the user what section they are about to select
 
 2. Google Fonts:
-    * Google fonts were used to import the '________' font into the style.css file which is used on all pages throughout the project.
+    * Google fonts were used to import the 'Shrikhand', 'Work Sans' and 'Space Mono' font into the style.css file which is used on all pages throughout the project.
 
 3. Font Awesome:
     * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
