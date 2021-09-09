@@ -277,10 +277,28 @@ header{
 
 /* Footer */
 footer{
-    background: orange;
+
+    display: flex;
+
+    background: #D3D3D3;
     padding:1em;
 
     bottom:0; width: 100%;
+    margin-top: 1em;
+}
+
+
+footer > *{
+    flex-basis: 100%;
+}
+
+.links{
+    text-align: center;
+}
+
+.links li{
+    display: inline;
+    text-decoration: none;
 }
 
 
