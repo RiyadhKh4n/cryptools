@@ -154,6 +154,11 @@ header{
     overflow: auto;
 }
 
+#eth-div{
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid #542D9E;
+}
 
 .info{
     text-align: justify;
@@ -194,7 +199,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     
-    background: lightblue;
+   
 }
 
 #PoSW-div{
