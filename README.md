@@ -1,6 +1,6 @@
 # Cryptools
 
-[](View the live project here)
+[Link to Cryptools Website Here](https://riyadhkh4n.github.io/cryptools/index.html)
 
 Cryptools is a website focused to enhance the knowledge of people who want to learn and get involved with crypto and the blockchain insdustry. It is an informative website where they can learn 'What the Importance of Crypto is' and why they should care about it. As well as learn the basic fundamntals of centralisation vs. decentralisation and the important role crypto is playing in giving the power back to the people.
 
