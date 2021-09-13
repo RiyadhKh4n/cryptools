@@ -9,6 +9,9 @@
     border: none;
     
 }
+html{
+    scroll-behavior: smooth;    
+}
 
 body{
     font-family: Work Sans, sans-serif;
@@ -159,7 +162,7 @@ header{
     background-color: rgba(177, 0, 253, .70);
 
     bottom: 30px;
-    right: 100em;
+    right: 1300px;
 
     position: absolute;
 
