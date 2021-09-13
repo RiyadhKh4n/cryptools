@@ -45,9 +45,26 @@ Image from AmIResponisve goes here
 
         - Imagery is important, it makes the webpage more aesthetic and helps break up the sections by not having too much text on one page, which may dissatisfy users. The hero image is designed to be striking and catch the user's attention. It is also relevant to the website and helps make the inital user experience to be more positive.
 
+    * Icons:
+        - I decided to use the Font Awesome icons. The icons that I chose fit in well with the overall theme of cryptocurrencies. The icons are styled in accordance with my website, with the same colors and font size.
 
+* ## Scope ~
+
+    * When creating Cryptools I will take an agile approach when developing. That is, creating sections of the website at a time and ensuring they work as intended before going onto the next section. I will be able to break up development by choosing small elements to work on daily, ensuring the website can be built and published in a timely fashion and ensuring I dont succumb to 'scope creep'. 
+
+* ## Structure ~
+
+    * I have chosen to create a website with multiple pages allowing me to separate the information into logical sections to make it easier for the user to find what they are looking for. The navigation bar at the top of all of the pages allows the user to easily navigate to the section or page of the website they are interested in.
+
+    * On the 'index.html page', I have chosen to have a hero image with an animation (the same as the Love Running animation). This will hopefully grab the users attention instantly and intrigue them. The "Intro to Crypto" section comes next and I felt this was the proper placing for this information. Logically, the user will want to know what crypto is and why it is important before they can delve further into the topic, they will be taught the basic concept of crypto as well as how Bitcoin and Ethereum were created. The user is then guided to the 'Core Principles' section which will give them a thorough understanding of the difference between centralised and decentralised networks and how crypto solves the issues faced. After this, the next section is 'PoW vs PoS' which dives into the more technicalities of how coins / tokens are generated and put into cirulation. Although more complex it is a fundamental idea that users must grasp in order to gain a better understanding on cryptocurrencies. 
+
+    * On the 'tokenomics.html' page, users will be given a brief overview of what tokenomics are, how they work and why they are important to understand. Without this key understanding it is very hard to know what crypto projects are legitimate and which ones are there purley for monetary gain (or scams). There will also be a linked video which will provide users with a more in - depth and complex understading of tokenomics if they wish to further expand their knowledge.
+
+    * Finally, on the 'HowToBuy.html' page users will be given a comprehensive guide of where to buy cryptos from, either DEXs or CEXs. They will learn the difference between the two as well as the advantages and disadvantages of either. Finally they will be given a list of top exchanages which they can purchase from and will now be equipped with all the knowledge they need to begin their crypto career. 
 
 * ## Wireframes
+
+    * I made some basic wireframes using Balsamiq at the beginning of the project, this allowed me to get a brief understadning of how I want Cryptools to look as well as ensuring I have a rough model to follow. As a total beginner, I found Balsamiq very helpful and easy to use. I didn't quite know what styling I wanted on my pages however I had a clear picture about the content. I knew how many pages I wanted my website to have and how the sections should link to one another. Balsamiq allowed me to create a visual of my idea and gave me a goal to work towards, below my wireframes.
 
     * ### Home Page Wireframe 
 
