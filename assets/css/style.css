@@ -62,6 +62,7 @@ li, a{
     font-weight: bold;
     font-size: 20px;
     color:#F04573;
+    border-radius: 20px;
     text-decoration: none;
 }
 
@@ -113,6 +114,7 @@ header{
 
 /* hero image */
 #hero-outer{
+   
     height: 600px;
     width:100%;
     position: relative;
