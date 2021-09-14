@@ -382,7 +382,7 @@ header{
 
 .tokenomics-boxes{
     
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding: 1em;
     border: 2px solid #F04573;
 
@@ -394,8 +394,11 @@ header{
     padding-bottom: .6em;
 }
 
-
-
+/* tokenomics video */
+ 
+#tokenomics-video-section{
+    margin: 3em;
+}
 
 
 /* Footer css */
