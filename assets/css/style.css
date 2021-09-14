@@ -337,10 +337,10 @@ header{
 /* TOKENOMICS PAGE */
 
 /* What are Tokenomics */
+#total-page-section{
 
-#what-are-tokenomics-container{
-    display: flex;
-    flex-wrap: wrap;
+    margin: 1em;
+    border: 3px solid #542D9E;
 
 }
 
@@ -371,16 +371,28 @@ header{
 }
 
 #why-important-container{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+
     margin: 1em;
-    border: 2px dotted red;
+   
 }
 
 .tokenomics-boxes{
-    width: 500px;
-    height: 500px;
-    border: 3px solid yellow;
+    
+    margin-bottom: 50px;
+    padding: 1em;
+    border: 2px solid #F04573;
+
+    width: 850px;
+    height:500px;
 }
 
+.tokenomics-boxes h3{
+    padding-bottom: .6em;
+}
 
 
 
