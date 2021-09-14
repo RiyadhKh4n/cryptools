@@ -66,6 +66,7 @@ li, a{
 }
 
 header{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,6 +123,7 @@ header{
 }
 
 #hero-image{
+    
     height:600px;
     width:100%;
     background: url('../images/heroImage1.jpeg') no-repeat center center;
@@ -180,9 +182,14 @@ header{
         
 }
 
+#intro-container-div{
+    
+}
+
 #Intro2Crypto-div{
     width:100%;
     margin: 1em;
+    
 }
 
 #Intro2Crypto-div h2{
@@ -203,9 +210,14 @@ header{
 #first-2-boxes-container > *{
     flex-basis:100%;
     border: 2px solid #542D9E;
+
     margin: 1em;
     padding: 1em;
     overflow: auto;
+}
+
+.video-container{
+    background-color: white;
 }
 
 #eth-div{
@@ -221,8 +233,8 @@ header{
 /* Centralised vs. Decentralised */
 #CvD-container{
     background-color: white;
-    margin: 1em;
-    border: 2px solid #542D9E;
+    
+    background-color: #F04573;
   
 }
 
@@ -233,7 +245,7 @@ header{
 }
 
 #CvD-div h2{
-    color:#542D9E;
+    color:#F9F871;
     text-align: center;
 }
 
@@ -242,9 +254,25 @@ header{
     padding: 1em;
 }
 
+.CvD-overview h3{
+    color:#F9F871;
+}
+
+.CvD-overview .info{
+    color:white;
+}
+
 .CvD-box{
   
     padding: 1em;
+}
+
+.CvD-box h3{
+    color:#F9F871;
+}
+
+.CvD-box .info{
+    color: white;
 }
 
 /* Proof of Stake vs Proof of Work */
@@ -274,9 +302,15 @@ header{
     
 }
 
+.PoSW-box h3{
+    color:#542D9E;
+    
+}
+
+
 #PoSW-info-container > *{
     flex-basis:100%;
-    border: 2px solid #542D9E;
+    border: 3px solid #F9F871;
     margin: 1em;
     padding: 1em;
     overflow: auto;
