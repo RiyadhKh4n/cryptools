@@ -118,7 +118,6 @@ header{
     position: relative;
     
     overflow: hidden;
-    
 
 }
 
@@ -334,6 +333,58 @@ header{
 
 
 }
+
+/* TOKENOMICS PAGE */
+
+/* What are Tokenomics */
+
+#what-are-tokenomics-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#WaT-title{
+    width:100%;
+    margin: 1em;
+}
+
+#WaT-title h2{
+    text-align: center;
+    color: #542D9E;
+}
+
+.WaT-info{
+    margin: 0 1em;
+    padding: 1em;
+   
+    background-image: linear-gradient(to left, rgba(84,45,158,.65), rgba(240,69,115,.7));
+}
+
+.WaT-info .info{
+    color: white;
+    padding-top: 1em;
+}
+
+.tokenomics-heading{
+    color:white;
+}
+
+#why-important-container{
+    margin: 1em;
+    border: 2px dotted red;
+}
+
+.tokenomics-boxes{
+    width: 500px;
+    height: 500px;
+    border: 3px solid yellow;
+}
+
+
+
+
+
 
 /* Footer css */
 footer{
