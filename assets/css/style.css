@@ -459,27 +459,6 @@ footer > *{
 }
 
 @media screen and (max-width: 768px){
-    .menu li a{
-        transition: all 0.3s ease 0s;
-        
-    }
-    
-    .menu li{
-        display: inline-block;
-        padding: 0px 10px;
-    }
-    
-    .menu a{
-     
-        text-decoration: none;
-        padding: 3px;
-    }
-    
-    .menu li a:hover{
- 
-        border: 1px solid #542D9E;
-    }
-    
     
 }
 
