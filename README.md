@@ -229,10 +229,10 @@ $ git clone https://github.com/RiyadhKh4n/cryptools.git
 # Credits ~
 
 ## Content
-
+* All information on the website was taken from different souces as well as a large marjority being my own information
 
 ## Media
-* The photos used on the home page are from This (include link) Open Source site
+* The hero image used on the home page was taken from Google Images: [Link to Image Here](https://cdn.zmescience.com/wp-content/uploads/2021/04/bitcoin-trading-volume.jpg)
 
 ## Code
 
