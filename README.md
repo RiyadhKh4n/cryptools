@@ -80,8 +80,6 @@ Image from AmIResponisve goes here
     ![WHere To Buy Wireframe](documents/wireframes/where2buy.png)
 
 
-
-
 # Features ~
 
 Here describes the main features of the website and what the user can expect when viewing ~
