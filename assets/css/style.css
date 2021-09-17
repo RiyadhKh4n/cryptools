@@ -20,7 +20,7 @@ body{
   
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: Space Mono, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -406,7 +406,15 @@ header{
 /* tokenomics video */
  
 #tokenomics-video-section{
-    margin: 3em;
+    margin: 1em;
+  
+}
+
+#video-text{
+    text-align: center;
+    font-weight: bold;
+    color: #F9F871;
+    background-color: black;
 }
 
 
