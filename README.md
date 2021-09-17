@@ -35,7 +35,7 @@ Image from AmIResponisve goes here
 
     * Colour Scheme:
 
-        - The two main colours for Cryptools are purple and black. They are clean contrasting colours that pop. 
+        - The three main colours for Cryptools are #542D9E which is a purple, #F9F871 which is a yellow and #F04573 which is a redish-pink. This colour palette was generated for me by using ColorSpace as selecting their generic gradient, of course black and white are prominent colours in the website aswell and are used interchangeably. Throughout the website I tried to use the 60/30/10 rule for my colour palette, this means one colour will take up 60% of the section, one 30% and the last 10%. I tried to stay as consistent as possible however depending on the sections the main colour changes in order to break up the text. There are also times where I mixed two colours together to form a gradient background.
 
     * Typography:
 
@@ -43,7 +43,7 @@ Image from AmIResponisve goes here
 
     * Imagery:
 
-        - Imagery is important, it makes the webpage more aesthetic and helps break up the sections by not having too much text on one page, which may dissatisfy users. The hero image is designed to be striking and catch the user's attention. It is also relevant to the website and helps make the inital user experience to be more positive.
+        - Imagery is important, it makes the webpage more aesthetic and helps break up the sections by not having too much text on one page, which may dissatisfy users. The hero image is designed to be striking and catch the user's attention. It is also relevant to the website and helps make the inital user experience to be more positive. Throughout the website, there will be embedded YouTube videos which help break up the text and allows the users to access further information on the particular section.
 
     * Icons:
         - I decided to use the Font Awesome icons. The icons that I chose fit in well with the overall theme of cryptocurrencies. The icons are styled in accordance with my website, with the same colors and font size.
