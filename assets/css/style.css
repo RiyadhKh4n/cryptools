@@ -340,10 +340,7 @@ header{
 
 /* What are Tokenomics */
 #total-page-section{
-
     margin: 1em;
-    border: 3px solid #542D9E;
-
 }
 
 #WaT-title{
@@ -388,12 +385,22 @@ header{
     padding: 1em;
     border: 2px solid #F04573;
 
-    width: 850px;
-    height:500px;
+    width: 100%;
+    height:auto;
+}
+
+.token-title-div{
+    width: 100%;
 }
 
 .tokenomics-boxes h3{
     padding-bottom: .6em;
+    text-align: center;
+    color: #542D9E;
+}
+
+.important{
+    padding-bottom: 1em;
 }
 
 /* tokenomics video */
@@ -407,7 +414,8 @@ header{
 footer{
 
     display: flex;
-
+   
+    flex-direction: row;
     background: #D3D3D3;
 
     margin-top: 1.5em;
