@@ -13,6 +13,11 @@ html{
     scroll-behavior: smooth;    
 }
 
+#pageContainer{
+    margin-left: 3em;
+    margin-right: 3rem;
+}
+
 body{
     font-family: Work Sans, sans-serif;
     font-weight: 400;
@@ -153,10 +158,9 @@ header{
     width: 500px;
     height: 150px;
 
-    padding-top: 20px;
-    padding-left: 10px;
+    padding: 10px;
 
-  
+
     background-color: rgba(177, 0, 253, .70);
 
     bottom: 30px;
@@ -192,7 +196,7 @@ header{
     margin: 1em;
     padding: 1em;
    
-    background-image: linear-gradient(to left, rgba(84,45,158,.65), rgba(240,69,115,.7));
+    background-image: linear-gradient(to left, rgba(84,45,158, 1), rgba(240,69,115, 1));
    
 }
 
@@ -243,15 +247,15 @@ header{
 
 /* Centralised vs. Decentralised */
 #CvD-container{
-    background-color: white;
-    
+    margin-left: 1em;
+    margin-right: 1em;
     background-color: #F04573;
   
 }
 
 #CvD-div{
     width: 100%;
-    margin:1em;
+    margin-top:1em;
     padding:1em;
 }
 
@@ -290,8 +294,9 @@ header{
 
 
 #PoSW-div{
+    margin-top:1em;
     width:100%;
-    margin: 1em;
+   
 }
 
 #PoSW-div h2{
@@ -334,6 +339,7 @@ header{
 /* TOKENOMICS PAGE */
 
 /* What are Tokenomics */
+
 #total-page-section{
     margin: 1em;
 }
@@ -352,7 +358,7 @@ header{
     margin: 0 1em;
     padding: 1em;
    
-    background-image: linear-gradient(to left, rgba(84,45,158,.65), rgba(240,69,115,.7));
+    background-image: linear-gradient(to left, rgba(84,45,158, 1), rgba(240,69,115, 1));
 }
 
 .WaT-info .info{
