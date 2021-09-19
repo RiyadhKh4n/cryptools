@@ -72,7 +72,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    
+   
 }
 
 .logo{
@@ -80,6 +80,7 @@ header{
     cursor: pointer;
     font-family: Shrikhand;
 }
+
 
 .menu{
     list-style: none;
@@ -252,7 +253,7 @@ header{
 }
 
 #CvD-div{
-    width: 100%;
+    width: auto;
     margin-top:1em;
     padding:1em;
 }
@@ -448,49 +449,6 @@ footer > *{
 
 
 @media screen and (max-width: 1440px){
-    li, a{
-        font-family: Work Sans, sans-serif;
-        font-weight: bold;
-        font-size: 20px;
-        color:#F04573;
-        border-radius: 10px;
-        text-decoration: none;
-    }
-    
-    header{
-        
-        display: flex;
-       
-        align-items: center;
-        padding: 30px 10%;
-        
-    }
-    
-    .logo{
-        color: #542D9E;
-        cursor: pointer;
-        font-family: Shrikhand;
-        align-self: center;
-        
-        
-        
-    }
-
-    .menu{
-        margin-top: 1em;
-    }
-    
-    .menu li{
-        display:inline-block;
-        padding: 0px 20px;
-        
-    }
-    
-    .menu a{
-        border: 2px solid white; 
-        text-decoration: none;
-        padding: 12px;
-    }
 
     
 
@@ -501,8 +459,15 @@ footer > *{
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1867px){
     
+}
+
+@media screen and (min-width: 768px){
+    #pageContainer{
+        margin: 0;
+    }
+
 }
 
 @media screen and (max-width: 425px){
