@@ -417,6 +417,19 @@ header{
     background-color: black;
 }
 
+/* How To Buy Page */
+
+#buying-title{
+    width: auto;
+    margin: 1em;
+}
+
+#buying-title h2{
+    text-align: center;
+    color: #542D9E;
+}
+
+
 
 /* Footer css */
 footer{
