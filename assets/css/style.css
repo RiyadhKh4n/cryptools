@@ -429,6 +429,32 @@ header{
     color: #542D9E;
 }
 
+#DEX-CEX-contatiner{
+   display: flex;
+   
+}
+
+.DEX-CEX-box{
+    border: 3px solid #F04573;
+    margin: 15px;
+
+   
+}
+
+
+.DEX-CEX-titles h3{
+    padding-top: 1em;
+    text-align: center;
+    color: #542D9E;
+}
+
+.DEX-CEX-box p{
+    margin: 1em;
+}
+
+.DEX-CEX-box h4{
+    margin: 1em;
+}
 
 
 /* Footer css */
