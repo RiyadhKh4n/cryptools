@@ -9,13 +9,14 @@
     border: none;
     
 }
+
 html{
+
     scroll-behavior: smooth;    
 }
 
 #pageContainer{
-    margin-left: 3em;
-    margin-right: 3rem;
+
 }
 
 body{
@@ -108,7 +109,7 @@ header{
     border: 2px solid #542D9E;
 }
 
-.active{
+.menu a.active {
     border: 2px solid #542D9E;
     padding: 12px;
     
@@ -175,11 +176,7 @@ header{
 }
 
 /* Why Should You Care Section */
-#intro-container{
-    display: flex;
-    flex-wrap: wrap;
-          
-}
+
 
 #Intro2Crypto-div{
     
@@ -219,6 +216,10 @@ header{
     margin: 1em;
     padding: 1em;
     overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
 }
 
 .fa-bitcoin{
@@ -247,8 +248,7 @@ header{
 
 /* Centralised vs. Decentralised */
 #CvD-container{
-    margin-left: 1em;
-    margin-right: 1em;
+    margin: 1em;
     background-color: #F04573;
   
 }
@@ -504,16 +504,11 @@ footer > *{
 }
 
 @media screen and (min-width: 768px){
-    #pageContainer{
-        margin: 0;
-    }
-
+  
 }
 
 @media screen and (max-width: 425px){
-    #pageContainer{
-        margin: 0;
-    }
+  
     
 }
 
