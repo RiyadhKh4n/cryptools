@@ -90,37 +90,42 @@ Here describes the main features of the website and what the user can expect whe
 
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous bage via the 'back' button.
 
-    *INCLUDE IMAGE OF NAV BAR HERE*
+        ![Intro](documents/READMEImages/NavBarComp.png)
 
 * The landing page image
     - The landing page includes a photograph with text overlay to improve aesthetic appearance of the page and to not bombard the user with text as soon as they land on the page. 
 
     - This section introduces the user to ______ with an eye catching animation to grab their attention
 
-      *INCLUDE IMAGE OF HERO IMAGE HERE*
+      ![Hero](documents/READMEImages/HeroImageComp.png)
 
-* Why Should You Care Section
+* Intro To Crypto Section
     - This section is the first part of the webpage the user will see. It provides an overview of what crypto is, the main usecases as well as why the technology is important.
     - It introduces the user to the topic and will give them a basic understanding of what the purpose of crypto is and the power it can play
     
-      *INCLUDE IMAGE OF THE SECTION HERE*
+      ![intro](documents/READMEImages/introComp.png)
+      ![intro.2](documents/READMEImages/understandingComp.png)
+      ![intro.3](documents/READMEImages/ethComp.png)
 
 * Centralisation vs. Decentralisation Section
     - This part of the website will help solidify their basic understadning with giving them a brief overview and comparision between the two i.e C vs. D. Getting a strong grasp of this concept is important as this is the whole foundation on what crypto and blockchain is founded on.
 
-    *INCLUDE IMAGE OF THE SECTION HERE*
+      ![CvD](documents/READMEImages/CvDComp.png)
 
 * Proof of Stake vs. Proof of Work Section
     - Getting a grasp of these two concepts is also important as it is only way cryptocurrencies are formed / mined and put into circulation for purchase.
     - Understadning the difference between the two allows the user to be aware of how the price of the coin will fluctuate and gives an insight into potential price action (PA) as halvings and buring occur
 
-    *INCLUDE IMAGE OF THE SECTION HERE*
+    ![PoS](documents/READMEImages/PoSComp.png)
+    ![PosVid](documents/READMEImages/PosVidComp.png)
 
 * Tokenomics Page
     - Tokenomics is the collection of metrics determining the quality and supply of an asset
     - This page will give the user a basic understanding of the complex world of tokenomics and the importance of being able to differentiate between good and bad tokenomics which will allow you to make better investment decisions in the future and help avoid the chance of being involved in a rug pull or scam
 
-    *INCLUDE IMAGE OF THE PAGE HERE*
+    ![token](documents/READMEImages/tokenComp.png)
+    ![token1](documents/READMEImages/token2Comp.png)
+    ![token2](documents/READMEImages/token3Comp.png)
 
 * Where to Buy Page
     - There are many places to buy crypto now and chosing the right place can be a challenge in itself. This section of the webiste will give users a comprehensive guide of how and where to buy cryptos as well as important aspects like security and the advantages and disadvanatges of certain exchanges
