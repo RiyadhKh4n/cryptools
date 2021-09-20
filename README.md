@@ -140,8 +140,9 @@ Here describes the main features of the website and what the user can expect whe
 
 ## Languages Used
 
-- HTML5 <--- Add link to HTML5 wiki 
-- CSS3 <--- Add Link to CSS3 Wiki
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Frameworks, Libraries & Programs Used:
 
