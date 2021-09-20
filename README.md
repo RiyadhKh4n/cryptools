@@ -175,6 +175,24 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - Results
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Results
 
+## Website Tests:
+
+Upon inspection of the colour contrast on the website I am aware of a contrasting issue within the Centralised vs. Decentralised section of the website. When using Chrome Dev Tools over the paragraph elements within this section - which have the colour #FFF applied, the contrast score (under accessibility) gives a value of 3.61 along with a warning, which highlights that there may be a potential issue for people with colour blindness.
+
+![image](documents/testing/ChromeDevTools1.png)
+
+I am aware that the ideal score for Contrast is '5' and above and that there should not be a warning sign present and instead a green tick however after some inspection I noticed that the titles in the Centralised vs. Decentralised section, which all have the colour #F9F871 applied to it - which is a yellow - gave a Contrast score of 3.22 and a green tick which is less than the paragraph elements and would actually be harder to see against the #F04573 background comapred to white.   
+
+![image](documents/testing/DevTools(1).png)
+
+After changing the colour of the paragraph elements to see which would improve the score, it turned out that black actually improved the Contrast score significantly and brought it up to 5.8 and a green tick was present. Signifying that instead of white, black was actually the better colour to use when trying to improve the contrast against the pink background. 
+
+![image](documents/testing/black1.png)
+
+However, due to aesthetic and personal reasons I am going to keep the text within this section to white as I believe it stands out more against the darker background, as having two dark colours (black and #F04573) would mean the text would be harder to read as the colours are too similar. Furthermore the score given did not make sense as a pass was given to an element which had a lower Contrast score compared to one with a higher score - so I am going to leave the text as white as I believe it will infact make it easier to read for people with colour blindness to read. However I made sure to comply with the scoring given to other elements throughout the rest of the website.
+
+
+
 ## Testing User Stories from User Experience (UX) Section
 
 * ### First Time Visitor Goals:
@@ -240,7 +258,7 @@ $ git clone https://github.com/RiyadhKh4n/cryptools.git
 ## Media
 
 ### Images
-* The hero image used on the home page was taken from the webiste linked [here](https://cdn.zmescience.com/) - [Link to Image Here](https://cdn.zmescience.com/wp-content/uploads/2021/04/bitcoin-trading-volume.jpg)
+* The Hero Image used on the home page was taken from the webiste linked [here](https://cdn.zmescience.com/) - [Link to Image Here](https://cdn.zmescience.com/wp-content/uploads/2021/04/bitcoin-trading-volume.jpg)
 
 ## Website Information (Content):
 * [Investopedia](https://www.investopedia.com/terms/c/cryptocurrency.asp)
