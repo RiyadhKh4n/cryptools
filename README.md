@@ -234,7 +234,7 @@ $ git clone https://github.com/RiyadhKh4n/cryptools.git
 
 # Credits ~
 
-## Content
+## Content:
 * All information on the website was taken from different souces as well as a large marjority being my own - Links to all sources are below:
 
 ## Media
@@ -242,7 +242,7 @@ $ git clone https://github.com/RiyadhKh4n/cryptools.git
 ### Images
 * The hero image used on the home page was taken from the webiste linked [here](https://cdn.zmescience.com/) - [Link to Image Here](https://cdn.zmescience.com/wp-content/uploads/2021/04/bitcoin-trading-volume.jpg)
 
-## Website Information
+## Website Information (Content):
 * [Investopedia](https://www.investopedia.com/terms/c/cryptocurrency.asp)
 * [Payoda](https://www.payoda.com/introduction-to-the-concepts-of-cryptocurrency/)
 * [TechTalks](https://bdtechtalks.com/2017/10/27/why-does-the-centralized-internet-suck/)
@@ -251,6 +251,12 @@ $ git clone https://github.com/RiyadhKh4n/cryptools.git
 * [Berty](https://berty.tech/blog/decentralized-distributed-centralized)
 * [Nasdaq](https://www.nasdaq.com/articles/decentralized-and-centralized-exchanges%3A-who-will-win-the-race-2020-11-05)
 * [DevProvider](https://www.devprovider.com/centralised-vs-decentralised-exchanges/)
+
+## Source of YouTube Videos in Website:
+* [Coin Bureau](https://www.youtube.com/c/CoinBureau)
+* [The Guardian](https://www.youtube.com/guardian)
+* [Simply Explained](https://www.youtube.com/c/Savjee)
+
 
 
 ## Code
