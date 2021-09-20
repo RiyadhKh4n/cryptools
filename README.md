@@ -149,22 +149,22 @@ Here describes the main features of the website and what the user can expect whe
 1. Hover.css:
     * Hover.css was used on the navigation bar to help identify to the user what section they are about to select
 
-2. Google Fonts:
+2. [Google Fonts](https://fonts.google.com/):
     * Google fonts were used to import the 'Shrikhand', 'Work Sans' and 'Space Mono' font into the style.css file which is used on all pages throughout the project.
 
-3. Font Awesome:
+3. [Font Awesome](https://fontawesome.com/):
     * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-4. Git:
+4. [Git](https://git-scm.com/):
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-5. GitHub:
+5. [GitHub](https://github.com/):
     * GitHub is used to store the projects code after being pushed from Git. It was also used to deploy the project (GitHub Pages)
 
 6. Flexbox:
     * Flexbox was used to help with the layout and responsivness of the webpage
 
-7. Balsamiq:
+7. [Balsamiq](https://balsamiq.com/):
     * Balsamiq was used to create the wireframes during the design process.
 
 
@@ -172,8 +172,8 @@ Here describes the main features of the website and what the user can expect whe
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- W3C Markup Validator - Results
-- W3C CSS Validator - Results
+- [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - Results
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Results
 
 ## Testing User Stories from User Experience (UX) Section
 
@@ -235,10 +235,23 @@ $ git clone https://github.com/RiyadhKh4n/cryptools.git
 # Credits ~
 
 ## Content
-* All information on the website was taken from different souces as well as a large marjority being my own information
+* All information on the website was taken from different souces as well as a large marjority being my own - Links to all sources are below:
 
 ## Media
-* The hero image used on the home page was taken from Google Images: [Link to Image Here](https://cdn.zmescience.com/wp-content/uploads/2021/04/bitcoin-trading-volume.jpg)
+
+### Images
+* The hero image used on the home page was taken from the webiste linked [here](https://cdn.zmescience.com/) - [Link to Image Here](https://cdn.zmescience.com/wp-content/uploads/2021/04/bitcoin-trading-volume.jpg)
+
+### Website Information
+* [Investopedia](https://www.investopedia.com/terms/c/cryptocurrency.asp)
+* [Payoda](https://www.payoda.com/introduction-to-the-concepts-of-cryptocurrency/)
+* [TechTalks](https://bdtechtalks.com/2017/10/27/why-does-the-centralized-internet-suck/)
+* [N-Able](https://www.n-able.com/blog/centralized-vs-decentralized-network)
+* [Intego](https://www.intego.com/mac-security-blog/cryptocurrency-101-part-1-blockchain-and-basic-concepts/)
+* [Berty](https://berty.tech/blog/decentralized-distributed-centralized)
+* [Nasdaq](https://www.nasdaq.com/articles/decentralized-and-centralized-exchanges%3A-who-will-win-the-race-2020-11-05)
+* [DevProvider](https://www.devprovider.com/centralised-vs-decentralised-exchanges/)
+
 
 ## Code
 
