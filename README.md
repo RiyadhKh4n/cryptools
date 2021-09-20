@@ -242,7 +242,7 @@ $ git clone https://github.com/RiyadhKh4n/cryptools.git
 ### Images
 * The hero image used on the home page was taken from the webiste linked [here](https://cdn.zmescience.com/) - [Link to Image Here](https://cdn.zmescience.com/wp-content/uploads/2021/04/bitcoin-trading-volume.jpg)
 
-### Website Information
+## Website Information
 * [Investopedia](https://www.investopedia.com/terms/c/cryptocurrency.asp)
 * [Payoda](https://www.payoda.com/introduction-to-the-concepts-of-cryptocurrency/)
 * [TechTalks](https://bdtechtalks.com/2017/10/27/why-does-the-centralized-internet-suck/)
