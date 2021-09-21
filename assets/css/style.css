@@ -554,7 +554,7 @@ footer > *{
     .menu a{
         border: 2px solid white;
         text-decoration: none;
-        padding: 4px;
+        padding: 5px;
     }
     
     .menu li a:hover{
@@ -564,7 +564,7 @@ footer > *{
     
     .menu a.active {
         border: 2px solid #542D9E;
-        padding: 4px;
+        padding: 5px;
         
     }
 }
@@ -577,6 +577,16 @@ footer > *{
     #first-2-boxes-container #f2b-flex{
         flex-basis: 100%;
     }
+
+    #DEX-CEX-contatiner{
+        display: flex;
+        flex-wrap:wrap;
+        
+     }
+     
+     .DEX-CEX-box #DCB-flex{
+        flex-basis: 100%; 
+     }
 
 }
 
