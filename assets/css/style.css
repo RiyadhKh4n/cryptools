@@ -499,40 +499,75 @@ footer > *{
 
 
 
-@media screen and (max-width: 1024px){
-   
+@media only screen and (max-width: 1626px){
+    header{
+        display:block; 
+        align-items: center;
+        padding: 30px 10%;
+    }
 
+    #logo-href{
+        text-align: center;
+    }
+
+    .menu{
+        align-items: center;
+        padding-top: 5px;
+    }
 }
 
-@media screen and (max-width: 1867px){
+@media screen and (max-width: 1264px){
+    .menu li{
+        display: inline-block;
+        padding: 0px 10px;
+    }
     
-}
-
-@media screen and (min-width: 768px){
-    #cover-text{
-
-        font-size: 80%;
-        font-family: Space Mono, sans-serif;
-        text-transform:  uppercase;
-        letter-spacing: 4px;
-
-        width: 400px;
-        height: 175px;
-        
-        
-        background-color: rgba(177, 0, 253, .70);
-
-        position: absolute;
-
-        bottom: 1em;
-        margin: 0 1em;
-
+    .menu a{
+        border: 2px solid white;
+        text-decoration: none;
+        padding: 6px;
+    }
+    
+    .menu li a:hover{
+        transition: all 0.3s ease 0s;
+        border: 2px solid #542D9E;
+    }
+    
+    .menu a.active {
+        border: 2px solid #542D9E;
         padding: 10px;
-    }   
+        
+    }
 }
 
-@media screen and (min-width: 425px){
+@media only screen and (max-width: 1073px){
+    .menu li{
+        display: inline-block;
+        padding: 0px 5px;
+    }
     
+    .menu a{
+        border: 2px solid white;
+        text-decoration: none;
+        padding: 3px;
+    }
+    
+    .menu li a:hover{
+        transition: all 0.3s ease 0s;
+        border: 2px solid #542D9E;
+    }
+    
+    .menu a.active {
+        border: 2px solid #542D9E;
+        padding: 6px;
+        
+    }
+}
+
+@media only screen and (max-width: 971px){
+    body{
+      
+    }
  
     
 }
