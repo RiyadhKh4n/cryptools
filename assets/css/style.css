@@ -368,7 +368,7 @@ header{
 }
 
 #WaT-title{
-    width:100%;
+    width:auto;
     margin: 1em;
 }
 
@@ -642,6 +642,18 @@ footer > *{
         text-decoration: none;
     }
     
+}
+
+@media only screen and (max-width: 425px) {
+    .fa-ethereum{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .fa-ethereum{
+        font-size: 1em;
+    }
 }
 
 
