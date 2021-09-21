@@ -22,18 +22,32 @@
         </a>
 
         <nav>
-
-            <ul class="menu">
+            <ul class="menu topnav" id="myTopnav">
                 <li><a href="#intro" class="active">Intro to Crypto </a> </li>
                 <li><a href="#corePrinciples">Core Principles</a> </li>
                 <li><a href="#POSW">PoS vs. PoW</a> </li>
                 <li><a href="tokenomics.html">Tokenomics</a></li>
                 <li><a href="howTobuy.html">How to Buy?</a></li>
+                
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            
             </ul>
-
         </nav>
 
     </header>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          }else {
+            x.className = "topnav";
+          }
+        }
+    </script>
 
     <section id="hero-outer">
         <div id="hero-image"> </div>
