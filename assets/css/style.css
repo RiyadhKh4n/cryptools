@@ -568,6 +568,17 @@ footer > *{
         
     }
 }
+@media only screen and (max-width: 925px){
+    #first-2-boxes-container{    
+        display:flex;
+        flex-wrap: wrap;
+    }
+    
+    #first-2-boxes-container #f2b-flex{
+        flex-basis: 100%;
+    }
+
+}
 
 @media only screen and (max-width: 500px){
     footer{
