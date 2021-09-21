@@ -23,8 +23,18 @@ body{
     font-family: Work Sans, sans-serif;
     font-weight: 400;
     color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
   
 }
+
+main{
+    flex-grow: 1;
+}
+
+
 
 h1, h2, h3{
     font-family: Space Mono, sans-serif;
@@ -159,9 +169,9 @@ header{
     letter-spacing: 4px;
 
     width: 400px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    height: 175px;
+    padding:10px;
+    
 
     background-color: rgba(177, 0, 253, .70);
 
@@ -499,11 +509,31 @@ footer > *{
 }
 
 @media screen and (min-width: 768px){
-  
+    #cover-text{
+
+        font-size: 80%;
+        font-family: Space Mono, sans-serif;
+        text-transform:  uppercase;
+        letter-spacing: 4px;
+
+        width: 400px;
+        height: 175px;
+        
+        
+        background-color: rgba(177, 0, 253, .70);
+
+        position: absolute;
+
+        bottom: 1em;
+        margin: 0 1em;
+
+        padding: 10px;
+    }   
 }
 
-@media screen and (max-width: 425px){
-  
+@media screen and (min-width: 425px){
+    
+ 
     
 }
 

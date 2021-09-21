@@ -175,8 +175,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - Results
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Results
 
-## Website Tests:
-
+## Website Testing (Solving Issues):
+---
 Upon inspection of the colour contrast on the website I am aware of a contrasting issue within the Centralised vs. Decentralised section of the website. When using Chrome Dev Tools over the paragraph elements within this section - which have the colour #FFF applied, the contrast score (under accessibility) gives a value of 3.61 along with a warning, which highlights that there may be a potential issue for people with colour blindness.
 
 ![image](documents/testing/ChromeDevTools1.png)
@@ -191,6 +191,30 @@ After changing the colour of the paragraph elements to see which would improve t
 
 However, due to aesthetic and personal reasons I am going to keep the text within this section to white as I believe it stands out more against the darker background, as having two dark colours (black and #F04573) would mean the text would be harder to read as the colours are too similar. Furthermore the score given did not make sense as a pass was given to an element which had a lower Contrast score compared to one with a higher score - so I am going to leave the text as white as I believe it will infact make it easier to read for people with colour blindness to read. However I made sure to comply with the scoring given to other elements throughout the rest of the website.
 
+--- 
+Another issue I came across is that my footer would not stick to the bottom of the page when there was not enough content to push it down. Although I knew each page would contain enough content to push it down to the bottom and make it stay, I wanted to find a solution that would mean it would automatically stay at the bottom regardless of the amount of content present. Below is an image of the issue I was facing:
+
+![image](documents/testing/footer1Comp.png)
+
+After doing some looking aorund on Slack I came across a Mentor who posted a 'Dev Tip' that would allow the footer to stay at the bottom of the page no matter how much content there was. Therefore I implemented his code and was able to get my desired output.
+
+```
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}   
+
+main {
+  flex-grow: 1;
+}
+```
+Here is the new output with the ammeneded code:
+
+![image](documents/testing/EfooterComp.png)
+
+---
 
 
 ## Testing User Stories from User Experience (UX) Section
