@@ -64,6 +64,10 @@ p{
 }
 
 /* heading and logo */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 li, a{
     font-family: Work Sans, sans-serif;
@@ -101,6 +105,7 @@ header{
     color:rgba(84,45,158, 1);
     cursor: pointer;
     font-size: 40px;
+
     display: none;
 }
 
@@ -489,7 +494,7 @@ footer{
     flex-direction: row;
     background: #D3D3D3;
 
-    margin-top: 1.5em;
+    
     padding:1.5em;
 
     bottom:0; width: 100%;
@@ -509,8 +514,6 @@ footer > *{
     display: inline;
     text-decoration: none;
 }
-
-
 
 @media only screen and (max-width: 1630px){
     header{
@@ -578,7 +581,40 @@ footer > *{
         
     }
 }
-@media screen and (max-width: 990px){
+
+@media only screen and (max-width: 995px){
+    header{
+        display:flex; 
+        
+    }
+
+    .nav-ul.show{
+        display: flex;
+    }
+
+    .nav-ul{
+         display: none; 
+         flex-direction: column;
+         width: 100%;
+     }
+
+    .hamburger{
+         display: block;
+     }
+
+     .menu li{
+        display: inline-block;
+        padding: 0px 10px;
+    }
+
+    .menu a{
+        text-decoration: none;
+        padding: 2px;
+    }
+    
+}
+
+@media  only screen and (max-width: 990px){
     #first-2-boxes-container{    
         display:flex;
         flex-wrap: wrap;
@@ -599,26 +635,6 @@ footer > *{
      }
 
 
-}
-
-@media only screen and (max-width: 990px){
-    header{
-        display:flex; 
-        align-items: center;
-        padding: 30px 10%;
-    }
-
-    .nav-ul.show{
-        display: flex;
-    }
-
-    .nav-ul{
-         display: none;
-     }
-
-    .hamburger{
-         display: block;
-     }
 }
 
 @media only screen and (max-width: 600px){
@@ -645,12 +661,6 @@ footer > *{
 }
 
 @media only screen and (max-width: 425px) {
-    .fa-ethereum{
-        font-size: 1em;
-    }
-}
-
-@media only screen and (max-width: 320px) {
     .fa-ethereum{
         font-size: 1em;
     }
