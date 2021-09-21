@@ -517,6 +517,8 @@ footer > *{
 }
 
 @media screen and (max-width: 1264px){
+
+  
     .menu li{
         display: inline-block;
         padding: 0px 10px;
@@ -525,7 +527,7 @@ footer > *{
     .menu a{
         border: 2px solid white;
         text-decoration: none;
-        padding: 6px;
+        padding: 8px;
     }
     
     .menu li a:hover{
@@ -535,12 +537,12 @@ footer > *{
     
     .menu a.active {
         border: 2px solid #542D9E;
-        padding: 10px;
+        padding: 8px;
         
     }
 }
 
-@media only screen and (max-width: 1073px){
+@media only screen and (max-width: 1088px){
     .menu li{
         display: inline-block;
         padding: 0px 5px;
@@ -549,7 +551,7 @@ footer > *{
     .menu a{
         border: 2px solid white;
         text-decoration: none;
-        padding: 3px;
+        padding: 4px;
     }
     
     .menu li a:hover{
@@ -559,15 +561,13 @@ footer > *{
     
     .menu a.active {
         border: 2px solid #542D9E;
-        padding: 6px;
+        padding: 4px;
         
     }
 }
 
-@media only screen and (max-width: 971px){
-    body{
-      
-    }
+@media only screen and (max-width: 975px){
+    
  
     
 }
