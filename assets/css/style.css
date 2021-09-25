@@ -581,7 +581,7 @@ footer{
     display: flex;
    
     flex-direction: row;
-    background: rgba(220,220,220,0.5);
+    background: rgba(220,220,220,0.4);
 
     
     padding:1.5em;
