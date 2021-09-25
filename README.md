@@ -172,8 +172,12 @@ Here describes the main features of the website and what the user can expect whe
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - Results
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Results
+- [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+    * [index.html](documents/testing/w3cComp1.png)
+    * [tokenomics.html](documents/testing/token123Comp.png)
+    * [howTobuy.html](documents/testing/h2bComp.png)
+    
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results]()
 
 ## Website Testing (Solving Issues):
 ---
