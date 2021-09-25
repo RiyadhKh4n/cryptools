@@ -332,6 +332,21 @@ nav{
     transition: background-color 0.2s;
 }
 
+.accordion__button__Eth{
+    display: block;
+    width: 100%;
+    margin-top:5px;
+    padding: 10px;
+    border:2px solid white;
+    outline: none;
+    cursor: pointer;
+    background-color: #542D9E;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
 .accordion__button::after{
     content: '\25be';
     float: right;
@@ -349,6 +364,17 @@ nav{
     padding: 5px 0;
     background: #F04573;
 }
+
+.accordion__content__eth{
+    display: none;
+    overflow: auto;
+
+    padding: 5px 0;
+    background: white;
+    color: black;
+}
+
+
 
 /* Proof of Stake vs Proof of Work */
 
