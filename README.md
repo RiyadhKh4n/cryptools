@@ -314,6 +314,7 @@ $ git clone https://github.com/RiyadhKh4n/cryptools.git
 * [Binance Academy](https://academy.binance.com/en/articles/what-is-a-decentralized-exchange-dex#how-a-centralized-exchange-works)
 * [IDEX](https://blog.idex.io/all-posts/the-pros-and-cons-of-centralized-exchanges-decentralized-exchanges-and-hybrid-exchanges)
 
+
 ## Source of YouTube Videos in Website:
 * [Coin Bureau](https://www.youtube.com/c/CoinBureau)
 * [The Guardian](https://www.youtube.com/guardian)
