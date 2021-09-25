@@ -161,7 +161,7 @@ Here describes the main features of the website and what the user can expect whe
 5. [GitHub](https://github.com/):
     * GitHub is used to store the projects code after being pushed from Git. It was also used to deploy the project (GitHub Pages)
 
-6. Flexbox:
+6. [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/):
     * Flexbox was used to help with the layout and responsivness of the webpage
 
 7. [Balsamiq](https://balsamiq.com/):
@@ -215,7 +215,23 @@ Here is the new output with the ammeneded code:
 ![image](documents/testing/EfooterComp.png)
 
 ---
+I am aware of an issue that arises to the hero image when the viewport width is set to 2110px and above, the image I chose has dimensions 1920 x 1280 and therefore when viewing at this screen size the hero image has white space to the left and right which makes the homepage not look as intended.
 
+![image](documents/testing/heroImage1Comp.png)
+
+In order to make the aesthetics of the website look better when viewing at this screen size, I have added a background colour of lightgrey helping to break up the empty white space and allowing the nav bar and hero image to be visually separated. In addition to this, the cover text hangs over the image into the empty space which is not what I want so I have changed its positioning when viewing at this size so it is aligned more to the right. The new output can be viewed below:
+
+![image](documents/testing/updatedHeroComp.png)
+
+Another issue with the hero image arises when viewing on mobile, this is because the image I chose is fairly large so when vieiwng on a small screen most of the image is cut out which makes the webiste look odd as you only see 1/4 of the image making the landing page look odd.
+
+![image](documents/testing/smallHeroComp.png)
+
+In order to get around this I decided to use a smaller image when the user is viewing the webiste on mobile that would fit better. This image makes the website look alot cleaner and overall it will improve user engagement. The updated hero image for mobile is below:
+
+![image](documents/testing/smallHero1Comp.png)
+
+---
 
 ## Testing User Stories from User Experience (UX) Section
 
@@ -284,6 +300,8 @@ $ git clone https://github.com/RiyadhKh4n/cryptools.git
 ### Images
 * The Hero Image used on the home page was taken from the webiste linked [here](https://cdn.zmescience.com/) - [Link to Image Here](https://cdn.zmescience.com/wp-content/uploads/2021/04/bitcoin-trading-volume.jpg)
 
+* The Hero Image used for the mobile version of the site was taken from the website linked [here](https://www.forbes.com/?sh=faa6e492254c) - [Link to Image Here](https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ff76b9b66ab78e35db03812%2FA-picture-of-bitcoin--a-cryptocurrency--on-a-motherboard-%2F960x0.jpg%3Ffit%3Dscale)
+
 ## Website Information (Content):
 * [Investopedia](https://www.investopedia.com/terms/c/cryptocurrency.asp)
 * [Payoda](https://www.payoda.com/introduction-to-the-concepts-of-cryptocurrency/)
@@ -298,8 +316,6 @@ $ git clone https://github.com/RiyadhKh4n/cryptools.git
 * [Coin Bureau](https://www.youtube.com/c/CoinBureau)
 * [The Guardian](https://www.youtube.com/guardian)
 * [Simply Explained](https://www.youtube.com/c/Savjee)
-
-
 
 ## Code
 
