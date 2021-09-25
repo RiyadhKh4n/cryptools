@@ -64,10 +64,7 @@ p{
 }
 
 /* heading and logo */
-nav{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 li, a{
     font-family: Work Sans, sans-serif;
@@ -78,6 +75,15 @@ li, a{
     text-decoration: none;
 }
 
+.logo{
+    color: #542D9E;
+    cursor: pointer;
+    font-family: Shrikhand;
+    font-size: 2em;
+}
+
+/* 
+
 header{
     display: flex;
     justify-content: space-between;
@@ -86,43 +92,52 @@ header{
 
 }
 
-.logo{
-    color: #542D9E;
-    cursor: pointer;
-    font-family: Shrikhand;
-}
-
-
 .menu{
     list-style: none;
+}
+
+temp comment */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
 }
 
 /* burger menu */
 
 .hamburger{
     background-color: transparent;
-    border: 0;
-    color: #542D9E;
+    border:0;
+    color:#542D9E;
+    font-size: 2em;
     cursor: pointer;
-    font-size: 40px;
-
-    display: none;
+    display:none;
 }
 
 .hamburger:focus{
     outline: none;
 }
 
+/* END of burger menu */
 
-/*           */
-
-.menu li a{
+.nav-ul li a{
     transition: all 0.3s ease 0s;
-    
+    display: inline-block;
 }
 
 .menu li{
-    display: inline-block;
+    /*display: inline-block;*/
     padding: 0px 20px;
 }
 
@@ -516,7 +531,7 @@ footer > *{
 }
 
 @media only screen and (max-width: 1630px){
-    header{
+    nav{
         display:block; 
         align-items: center;
         padding: 30px 10%;
@@ -582,36 +597,39 @@ footer > *{
     }
 }
 
-@media only screen and (max-width: 995px){
-    header{
-        display:flex; 
-        
+@media only screen and (max-width: 1000px){
+    
+    nav{
+        display:flex;         
+    }
+
+    .nav-ul{
+        display:none;
+        width: 100%;
+        flex-direction: column;
     }
 
     .nav-ul.show{
         display: flex;
     }
 
-    .nav-ul{
-         display: none; 
-         flex-direction: column;
-         width: 100%;
-     }
-
     .hamburger{
-         display: block;
-     }
+        display: block;
+    }
 
-     .menu li{
-        display: inline-block;
-        padding: 0px 10px;
+    .nav-ul li a{
+        margin:5px;
     }
 
     .menu a{
-        text-decoration: none;
-        padding: 2px;
+        padding: 10px;
     }
-    
+
+    .menu a.active {
+        padding: 10px;
+        
+    }
+
 }
 
 @media  only screen and (max-width: 990px){
@@ -633,8 +651,6 @@ footer > *{
     .DEX-CEX-box #DCB-flex{
         flex-basis: 100%; 
      }
-
-
 }
 
 @media only screen and (max-width: 600px){
@@ -642,7 +658,6 @@ footer > *{
         display: flex;
         flex-direction: column;
     }
-    
     
     footer > *{
         flex-basis: 100%;
@@ -665,6 +680,13 @@ footer > *{
         font-size: 1em;
     }
 }
+
+@media only screen and (max-width: 375px) {
+    .logo{
+        font-size: 1.5em;
+    }
+}
+
 
 
 
