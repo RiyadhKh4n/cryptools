@@ -176,8 +176,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     * [index.html](documents/testing/w3cComp1.png)
     * [tokenomics.html](documents/testing/token123Comp.png)
     * [howTobuy.html](documents/testing/h2bComp.png)
-    
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results]()
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](documents/testing/cssComp.png)
 
 ## Website Testing (Solving Issues):
 ---
