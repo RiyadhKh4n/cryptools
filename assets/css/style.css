@@ -565,12 +565,12 @@ nav{
     margin-bottom: 10px;
 }
 
-.xchange-list li{
+.xchange-list li a{
     color:#542D9E;
     
 }
 
-.xchange-list li:hover{
+.xchange-list li a:hover{
     color:#F04573;
 }
 
