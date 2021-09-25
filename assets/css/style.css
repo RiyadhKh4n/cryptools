@@ -360,7 +360,7 @@ nav{
 }
 
 .PoSW-vid iframe{
-    padding: 0 5em;
+    padding: 1em 3em;
 }
 
 /* TOKENOMICS PAGE */
@@ -604,6 +604,10 @@ footer > *{
         background: url('../images/btcImgComp.jpeg') no-repeat center center;
         
     }
+
+    #cover-text{
+        background-color:#37367b;
+    }
 }
 
 @media only screen and (max-width: 1000px){
@@ -642,7 +646,7 @@ footer > *{
 }
 
 
-@media  only screen and (max-width: 990px){
+@media only screen and (max-width: 990px){
     #first-2-boxes-container{    
         display:flex;
         flex-wrap: wrap;
@@ -661,6 +665,26 @@ footer > *{
     .DEX-CEX-box #DCB-flex{
         flex-basis: 100%; 
      }
+}
+
+@media only screen and (max-width:768px){
+    #cover-text{
+
+        font-size: 60%;
+    
+        width: 400px;
+        height: 100px;
+
+        margin: 0 1em;
+        padding:10px;
+        
+        background-color:#37367b;
+    
+        bottom: 3em;
+        
+        position: absolute;
+    
+    }
 }
 
 @media only screen and (max-width: 600px){
@@ -682,6 +706,10 @@ footer > *{
         display: inline;
         text-decoration: none;
     }
+
+    #cover-text{
+        display: none;
+    }
     
 }
 
@@ -698,6 +726,8 @@ footer > *{
         font-size: 1em;
 
     }
+
+
 }
 
 
