@@ -596,6 +596,14 @@ footer > *{
         padding: 5px;
         
     }
+
+    #hero-image{
+        
+        height:600px;
+        width:100%;
+        background: url('../images/btcImgComp.jpeg') no-repeat center center;
+        
+    }
 }
 
 @media only screen and (max-width: 1000px){
@@ -633,18 +641,6 @@ footer > *{
 
 }
 
-@media only screen and (max-width: 768px){
-    
-    #hero-image{
-        
-        height:600px;
-        width:100%;
-        background: url('../images/btcImgComp.jpeg') no-repeat center center;
-        
-    }
-}
-   
-  
 
 @media  only screen and (max-width: 990px){
     #first-2-boxes-container{    
@@ -695,7 +691,12 @@ footer > *{
     }
 
     .logo{
-        font-size: 1.3em;
+        font-size: 1.75em;
+    }
+
+    li,a{
+        font-size: 1em;
+
     }
 }
 
