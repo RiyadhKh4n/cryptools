@@ -311,6 +311,8 @@ $ git clone https://github.com/RiyadhKh4n/cryptools.git
 * [Berty](https://berty.tech/blog/decentralized-distributed-centralized)
 * [Nasdaq](https://www.nasdaq.com/articles/decentralized-and-centralized-exchanges%3A-who-will-win-the-race-2020-11-05)
 * [DevProvider](https://www.devprovider.com/centralised-vs-decentralised-exchanges/)
+* [Binance Academy](https://academy.binance.com/en/articles/what-is-a-decentralized-exchange-dex#how-a-centralized-exchange-works)
+* [IDEX](https://blog.idex.io/all-posts/the-pros-and-cons-of-centralized-exchanges-decentralized-exchanges-and-hybrid-exchanges)
 
 ## Source of YouTube Videos in Website:
 * [Coin Bureau](https://www.youtube.com/c/CoinBureau)

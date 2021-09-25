@@ -464,9 +464,7 @@ nav{
 
 .DEX-CEX-box{
     border: 3px solid #F04573;
-    margin: 15px;
-
-   
+    margin: 15px; 
 }
 
 
@@ -482,6 +480,21 @@ nav{
 
 .DEX-CEX-box h4{
     margin: 1em;
+}
+
+.how{
+    color: #F04573;
+    font-size: 1.2em;
+}
+
+.benefits{
+    font-size: 1.2em;
+    color: green;
+}
+
+.drawbacks{
+    color: red;
+    font-size: 1.2em;
 }
 
 
@@ -645,8 +658,7 @@ footer > *{
 
 }
 
-
-@media only screen and (max-width: 990px){
+@media only screen and (max-width: 1000px){
     #first-2-boxes-container{    
         display:flex;
         flex-wrap: wrap;
@@ -676,7 +688,7 @@ footer > *{
         height: 100px;
 
         margin: 0 1em;
-        padding:10px;
+        padding: 10px;
         
         background-color:#37367b;
     
