@@ -352,7 +352,7 @@ nav{
 
 #PoSW-info-container > *{
     flex-basis:100%;
-    border: 3px solid #F9F871;
+    border: 5px solid #F9F871;
     margin: 1em;
     padding: 1em;
     overflow: auto;
@@ -502,7 +502,7 @@ nav{
 }
 
 .xchange-section{
-    margin-left: 2.5em;
+    margin-left: 2.5cem;
     margin-bottom: 10px;
 }
 
