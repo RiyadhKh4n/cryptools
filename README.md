@@ -321,5 +321,8 @@ $ git clone https://github.com/RiyadhKh4n/cryptools.git
 * [Simply Explained](https://www.youtube.com/c/Savjee)
 
 ## Code
+When developing the website I spent alot of time breaking down how I would code each section and what I needed to implement to ensure it looked and worked how I wanted it to. Therefore the vast majority of the code is orginal and my own however there were times where I did need help in progressing and when this happened I went on [slack](https://slack.com/intl/en-gb/) to ask fellow students if they knew how to help. If this did not work I would use [StackOverflow](https://stackoverflow.com/) which more often then not allowed me to get to the bottom of my problem and progress in developing Cryptools. I was also inspired by the Love Running project and used what I learnt from there as guide when I got stuck, as this demo project taught me alot and was a good foundation when developing this project.
+
+The only code in the webiste that was copied from a third - party was the burger menu. I implemented this on the back of my meeting with my tutor as they suggested it would be the easiest way to solve the issue I was having, as my nav bar takes up alot of space due to the length of the items and making it responsive for mobile would have be an issue. Therefore, I used [this](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) w3School lesson as well as a [YouTube video](https://www.youtube.com/watch?v=ydZc17rlR5E&list=PLt9gBsKEdOaxKmcaKgRGVkKurX84uhF3r&index=9) in order to successfully implement the burger menu.
 
 ---

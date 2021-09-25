@@ -317,6 +317,39 @@ nav{
     color: white;
 }
 
+.accordion__button{
+    display: block;
+    width: 100%;
+    margin-top:5px;
+    padding: 10px;
+    border:2px solid white;
+    outline: none;
+    cursor: pointer;
+    background-color: #F04573;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+.accordion__button::after{
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+}
+.accordion__button--active + .accordion__content{display:block}
+.accordion__button--active{background:#542D9E}
+.accordion__button--active::after{content: '\25b4'}
+
+.accordion__content{
+    
+    display: none;
+    overflow: auto;
+
+    padding: 5px 0;
+    background: #F04573;
+}
+
 /* Proof of Stake vs Proof of Work */
 
 
