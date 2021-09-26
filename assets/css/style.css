@@ -601,7 +601,7 @@ footer {
 }
 
 
-footer>* {
+footer> * {
     flex-basis: 100%;
 }
 
@@ -612,6 +612,13 @@ footer>* {
 .links li {
     display: inline;
     text-decoration: none;
+}
+
+#riyadh{
+   padding: 5px;
+    color:#542D9E;
+    align-items: right;
+
 }
 
 @media only screen and (min-width: 2000px) {

@@ -175,6 +175,12 @@ Here describes the main features of the website and what the user can expect whe
     ![DEX](documents/READMEImages/DEX1Comp.png)
     ![DEX](documents/READMEImages/DEX3Comp.png)
 
+* Footer
+    - This section provides the user with links to cryptocurrency social media accounts as well as articles and Youtubers in the space. These links open in a new window, allowing the user to remain on the Cryptools website also.
+
+    ![footer](documents/READMEImages/foooterComp.png)
+
+
 ## Features Left to Implement:
 
 # Technologies ~
