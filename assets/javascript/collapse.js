@@ -4,3 +4,4 @@ document.querySelectorAll('.accordion__button').forEach(button => {
         
     });
 });
+
