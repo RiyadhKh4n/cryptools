@@ -601,7 +601,7 @@ footer {
 }
 
 
-footer> * {
+footer>* {
     flex-basis: 100%;
 }
 
@@ -614,9 +614,9 @@ footer> * {
     text-decoration: none;
 }
 
-#riyadh{
-   padding: 5px;
-    color:#542D9E;
+#riyadh {
+    padding: 5px;
+    color: #542D9E;
     align-items: right;
 
 }
