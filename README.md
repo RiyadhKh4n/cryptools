@@ -300,10 +300,35 @@ The output of Cryptool when being viewed on Firefox can be seen below:
 ## Testing User Stories from User Experience (UX) Section
 
 * ### First Time Visitor Goals:
+    1. As a First Time Visitor, I want to be able to easily understand the intention of the website and to leave with knowledge about cryptocurencies.
+
+        * When the user lands on the homepage of the website, they are greeted with an image of a bitcoin as well as the heading 'Introduction to Crypto' which immediately signifies that this website is about cryptocurrencies and is an informative website.
+
+    2. As a First Time Visitor, I was to ensure I can easily navigate through the webiste and ensure all links direct me to the correct section of the website.
+
+        * When a user lands on the homepage of the website, users are automatically greeted with the navigation bar. The options on the navigation bar are clearly labelled for users, providing direction to other parts of the website, like 'Intro to Crypto', 'Core Principles', 'PoS vs. PoW', 'Tokenomics' and 'How to Buy?'. Underneath the navigation bar there is a hero image which gives the user a sense of what the page is about. As well as this, their is an #active state on whatever section the user is on which highlights the corresponding section they are on.
+
+    3. As a First Time Visitor, I want ensure no linked videos play without my discretion and all navigation links open in a new tab.
+
+        * When they go on the website, they are greeted with several YouTube videos which they can play to learn more about the specific section. The user has full control of the volume, playback speed and pause and play. Meaning I have met this criteria.
 
 * ### Returning Visitor Goals:
+    1. As a Returning Visitor, I want to find information about cryptocurrencies to be accurate and up-to-date.
+
+        * When going on the website users are met with infromation from reliable sources which they can ensure is factual and up - to  - date, all sources are provided in the Credits sections. As popularity for the website increases I will add more sections which they can navigate to in order to learn more about the industry.
+
+    2. As a Returning Visitor, I want to find any links to crypto influencers who can aid my learning developmenet.
+
+        * The relevant social media links are clearly shown in the footer. When the user clicks on the social media links, the new page will open in a new window. This allows the user to stay on the current page and not be drawn away from the Cryptools site.
 
 * ### Frequent User Goals:
+    1. As a Frequent User, I want to check to see if there have been any new updates added to the website, that can inhance my knowledge.
+
+        * The user would already be comfortable with the website layout and can easily check each section for new and updates. 
+
+    2. As a Frequent User, I want to see if any new links have been added so that I can stay up - to -date with crypto influencers.
+
+        * The user would already be comfortable with the website layout and can easily check the footer for updated YouTubers or articles they can go to allowing them to learn more.
 
 
 # Deployment ~
