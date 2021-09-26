@@ -193,7 +193,7 @@ Here describes the main features of the website and what the user can expect whe
 
 ## Frameworks, Libraries & Programs Used:
 
-1. Hover.css:
+1. [Hover.css](https://www.w3schools.com/cssref/sel_hover.asp):
     * Hover.css was used on the navigation bar to help identify to the user what section they are about to select
 
 2. [Google Fonts](https://fonts.google.com/):
