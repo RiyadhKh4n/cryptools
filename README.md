@@ -70,7 +70,7 @@ Image from AmIResponisve goes here
 
     * Colour Scheme:
 
-        - The three main colours for Cryptools are #542D9E which is a purple, #F9F871 which is a yellow and #F04573 which is a redish-pink. This colour palette was generated for me by using [ColorSpace](https://mycolor.space/) and selecting their generic gradient, of course black and white are prominent colours in the website aswell and are used interchangeably. I tried to stay as consistent as possible however depending on the sections the main colour changes in order to break up the text. There are also times where I mixed two colours together to form a gradient background. For the footer, in order for the text on top to easily stand out I used rgba(220,220,220,0.4) which is a light grey.
+        - The three main colours for Cryptools are #542D9E, #F9F871 and #F04573. This colour palette was generated for me by using [ColorSpace](https://mycolor.space/) and selecting their generic gradient, of course black and white are prominent colours in the website aswell and are used interchangeably. I tried to stay as consistent as possible however depending on the sections the main colour changes in order to break up the text. There are also times where I mixed two colours together to form a gradient background. For the footer, in order for the text on top to easily stand out I used rgba(220,220,220,0.4) which is a light grey.
 
         ![image](documents/READMEImages/colorComp.png)
 
