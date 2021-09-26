@@ -9,7 +9,7 @@ Cryptools also covers the basics of the two ways cryptos are generated i.e Proof
 ---
 Image from AmIResponisve goes here
 
----
+
 
 # Contents
 <ul>
