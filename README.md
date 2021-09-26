@@ -59,7 +59,7 @@ Image from AmIResponisve goes here
     * #### Returing Visitor Goals:
         1. As a Returning Visitor, I want to find information about cryptocurrencies to be accurate and up-to-date. 
 
-        2. As a Returning Visitor, I want to find any links to crypto influencers who can aid my learning developmenet.
+        2. As a Returning Visitor, I want to find new pages added to the website which I can use to further expand my understanding on this topic.
 
     * #### Frequent User Goals:
         1. As a Frequent User, I want to check to see if there have been any new updates added to the website, that can inhance my knowledge.
@@ -317,9 +317,9 @@ The output of Cryptool when being viewed on Firefox can be seen below:
 
         * When going on the website users are met with infromation from reliable sources which they can ensure is factual and up - to  - date, all sources are provided in the Credits sections. As popularity for the website increases I will add more sections which they can navigate to in order to learn more about the industry.
 
-    2. As a Returning Visitor, I want to find any links to crypto influencers who can aid my learning developmenet.
+    2. As a Returning Visitor, I want to find new pages added to the website which I can use to further expand my understanding on this topic.
 
-        * The relevant social media links are clearly shown in the footer. When the user clicks on the social media links, the new page will open in a new window. This allows the user to stay on the current page and not be drawn away from the Cryptools site.
+        * As a returing visitor, users will be comfortable with the website and will be able to find new sections added which they can use to learn more about crypto.
 
 * ### Frequent User Goals:
     1. As a Frequent User, I want to check to see if there have been any new updates added to the website, that can inhance my knowledge.
