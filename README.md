@@ -39,6 +39,14 @@ Image from AmIResponisve goes here
 
 # User Experience (UX) ~
 
+* ## Vision
+    Cryptools is a specialist website which aims to provide valuable knowledge about the world of cryptocurrencies to people who want to get into the space, whether you are a complete beginner or want to expand what you already know. This website will take you through the core concepts of cryptocurrencies and allow them to gain enough knowledge to begin your investment journey through this crazy space. As someone who is investment in crypto and really believes in the technology behind it, I want to be able to share what I know and allow people to get their foot into this new and exciting world. I want this website to offer a sense of community, I want it to be engaging and to encourage the you into getting involved in the space.
+
+* ## Aims
+    To give crypto newbies an all in one website they can go to when starting their journey, and to allow them to quickly learn the core concepts of this complex industry giving them the opportunity to make smart investment decisions.
+
+* ## Target Audience
+    There are a number of target audiences for this website due to the fact that crypto is for everyone. We welcome new and experienced people from ages, to come and learn about this fascinating industry. However, Cryptools is mainly aimed at educating people who know nothing about crypto as it takes you from the creation of the very first coin all the way to how to spot the next 10x gem! 
 
 * ## User Stories
     * #### First Time Visitor Goals:
@@ -56,19 +64,21 @@ Image from AmIResponisve goes here
     * #### Frequent User Goals:
         1. As a Frequent User, I want to check to see if there have been any new updates added to the website, that can inhance my knowledge.
 
-        2. As a Frequent User, I want to see if any new links have been added so that I can stay up - to -date with crypto analysits. 
+        2. As a Frequent User, I want to see if any new links have been added so that I can stay up - to -date with crypto influencers. 
     
 * ## Design ~
 
     * Colour Scheme:
 
-        - The three main colours for Cryptools are #542D9E which is a purple, #F9F871 which is a yellow and #F04573 which is a redish-pink. This colour palette was generated for me by using ColorSpace and selecting their generic gradient, of course black and white are prominent colours in the website aswell and are used interchangeably. Throughout the website I tried to use the 60/30/10 rule for my colour palette, this means one colour will take up 60% of the section, one 30% and the last 10%. I tried to stay as consistent as possible however depending on the sections the main colour changes in order to break up the text. There are also times where I mixed two colours together to form a gradient background. For the footer, in order for it to easily stand out I used #D3D3D3 which is a light grey.
+        - The three main colours for Cryptools are #542D9E which is a purple, #F9F871 which is a yellow and #F04573 which is a redish-pink. This colour palette was generated for me by using [ColorSpace](https://mycolor.space/) and selecting their generic gradient, of course black and white are prominent colours in the website aswell and are used interchangeably. I tried to stay as consistent as possible however depending on the sections the main colour changes in order to break up the text. There are also times where I mixed two colours together to form a gradient background. For the footer, in order for the text on top to easily stand out I used rgba(220,220,220,0.4) which is a light grey.
+
+        ![image](documents/READMEImages/colorComp.png)
 
     * Typography:
 
         - The 'Space Mono' font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly or the web browser not being able to support the Google Font. 'Shrikhand' is used for the logo and is a clean and modern font, so it is both attractive and appropriate. Finally 'Work Sans' is used for headings. 
 
-    * Imagery:
+    * Imagery & Videos:
 
         - Imagery is important, it makes the webpage more aesthetic and helps break up the sections by not having too much text on one page, which may dissatisfy users. The hero image is designed to be striking and catch the user's attention. It is also relevant to the website and helps make the inital user experience to be more positive. Throughout the website, there will be embedded YouTube videos which help break up the text and allows the users to access further information on the particular section.
 
@@ -77,7 +87,7 @@ Image from AmIResponisve goes here
 
 * ## Scope ~
 
-    * When creating Cryptools I will take an agile approach when developing. That is, creating sections of the website at a time and ensuring they work as intended before going onto the next section. I will be able to break up development by choosing small elements to work on daily, ensuring the website can be built and published in a timely fashion and ensuring I dont succumb to 'scope creep'. 
+    * When creating Cryptools I will take an waterfall approach when developing. That is, creating sections of the website at a time and ensuring they work as intended before going onto the next section. I will be able to break up development by choosing small elements to work on daily, ensuring the website can be built and published in a timely fashion and ensuring I dont succumb to 'scope creep'. 
 
 * ## Structure ~
 
@@ -159,7 +169,11 @@ Here describes the main features of the website and what the user can expect whe
     - Furthermore this page will compare the difference between Decentralised Exchanges (DEXs) and Centralised Exchanges (CEXs) and give the top exchanges for each
 
 
-    *INCLUDE IMAGE OF THE PAGE HERE*
+    ![CEX](documents/READMEImages/CEXComp.png)
+    ![CEX](documents/READMEImages/CEX2Comp.png)
+    ![DEX](documents/READMEImages/DEXComp.png)
+    ![DEX](documents/READMEImages/DEX1Comp.png)
+    ![DEX](documents/READMEImages/DEX3Comp.png)
 
 ## Features Left to Implement:
 

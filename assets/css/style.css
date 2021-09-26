@@ -1,22 +1,21 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: none;
-    
+
 }
 
-html{
+html {
 
-    scroll-behavior: smooth;    
+    scroll-behavior: smooth;
 }
 
 
-body{
+body {
     font-family: Work Sans, sans-serif;
     font-weight: 400;
     color: black;
@@ -24,64 +23,65 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-  
+
 }
 
-main{
+main {
     flex-grow: 1;
 }
 
-
-
-h1, h2, h3{
+h1,
+h2,
+h3 {
     font-family: Space Mono, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525; 
+    color: #252525;
 }
 
 
-p{
+p {
     font-family: Space Mono, sans-serif;
 }
 
-.video-container{
+.video-container {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
-    height:0;
+    height: 0;
     margin-top: 1em;
-  
+
 }
 
 
-.video-container iframe{
+.video-container iframe {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
 }
 
 /* heading and logo */
 
-li, a{
+li,
+a {
     font-family: Work Sans, sans-serif;
     font-weight: bold;
     font-size: 20px;
-    color:#F04573;
+    color: #F04573;
     border-radius: 20px;
     text-decoration: none;
 }
 
-.logo{
+.logo {
     color: #542D9E;
     cursor: pointer;
     font-family: Shrikhand;
     font-size: 2em;
 }
 
-nav{
+nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -89,7 +89,7 @@ nav{
     padding: 30px 10%;
 }
 
-.nav-ul{
+.nav-ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,37 +99,37 @@ nav{
 
 /* burger menu */
 
-.hamburger{
+.hamburger {
     background-color: transparent;
-    border:0;
-    color:#542D9E;
+    border: 0;
+    color: #542D9E;
     font-size: 2em;
     cursor: pointer;
-    display:none;
+    display: none;
 }
 
-.hamburger:focus{
+.hamburger:focus {
     outline: none;
 }
 
 /* END of burger menu */
 
-.nav-ul li a{
+.nav-ul li a {
     transition: all 0.3s ease 0s;
     display: inline-block;
 }
 
-.menu li{
+.menu li {
     padding: 0px 20px;
 }
 
-.menu a{
+.menu a {
     border: 2px solid white;
     text-decoration: none;
     padding: 12px;
 }
 
-.menu li a:hover{
+.menu li a:hover {
     transition: all 0.3s ease 0s;
     border: 2px solid #542D9E;
 }
@@ -137,58 +137,58 @@ nav{
 .menu a.active {
     border: 2px solid #542D9E;
     padding: 12px;
-    
+
 }
 
 /* hero image */
-#hero-outer{
-   
+#hero-outer {
+
     height: 600px;
-    width:100%;
+    width: 100%;
     position: relative;
-    
+
     overflow: hidden;
 
 }
 
-#hero-image{
-    
-    height:600px;
-    width:100%;
+#hero-image {
+
+    height: 600px;
+    width: 100%;
     background: url('../images/heroImage1.jpeg') no-repeat center center;
 
-     /* animates zoom effect on loading page */
+    /* animates zoom effect on loading page */
 
-     animation-name: hero-zoom;
-     animation-duration: 5s;
-     animation-fill-mode: forwards;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 
-     background-color: lightgrey;
+    background-color: lightgrey;
 }
 
 /* creates the level of zoom for hero image */
-@keyframes hero-zoom{
-    from{
+@keyframes hero-zoom {
+    from {
         transform: scale(1);
     }
 
-    to{
+    to {
         transform: scale(1.1);
     }
 }
 
 
-#cover-text{
+#cover-text {
 
     font-size: 80%;
     font-family: Space Mono, sans-serif;
-    text-transform:  uppercase;
+    text-transform: uppercase;
     letter-spacing: 4px;
 
     width: 400px;
     height: 175px;
-    padding:10px;
-    
+    padding: 10px;
+
 
     background-color: rgba(177, 0, 253, .70);
 
@@ -198,46 +198,46 @@ nav{
 
 }
 
-#cover-text h2{
+#cover-text h2 {
     color: #fff;
 }
 
 /* Why Should You Care Section */
 
 
-#Intro2Crypto-div{
-    
+#Intro2Crypto-div {
+
     margin: 1em;
-    
+
 }
 
-#Intro2Crypto-div h2{
+#Intro2Crypto-div h2 {
     color: #542D9E;
     text-align: center;
 }
 
-.WhatIsCrypto-div{
+.WhatIsCrypto-div {
     margin: 1em;
     padding: 1em;
-   
-    background-image: linear-gradient(to left, rgba(84,45,158, 1), rgba(240,69,115, 1));
-   
+
+    background-image: linear-gradient(to left, rgba(84, 45, 158, 1), rgba(240, 69, 115, 1));
+
 }
 
-.WhatIsCrypto-div h3{
+.WhatIsCrypto-div h3 {
     color: white;
 }
 
-.WiAc{
+.WiAc {
     color: white;
 }
 
-#first-2-boxes-container{    
-    display:flex;
+#first-2-boxes-container {
+    display: flex;
 }
 
-#first-2-boxes-container > *{
-    flex-basis:100%;
+#first-2-boxes-container>* {
+    flex-basis: 100%;
     border: 2px solid #542D9E;
 
     margin: 1em;
@@ -249,80 +249,80 @@ nav{
     justify-content: space-between
 }
 
-.fa-bitcoin{
+.fa-bitcoin {
     color: gold;
     font-size: 1.2em;
 }
 
-.fa-ethereum{
+.fa-ethereum {
     color: #37367b;
     font-size: 1.2em;
 }
 
-.video-container{
+.video-container {
     background-color: white;
 }
 
-#eth-div{
+#eth-div {
     margin: 1em;
     padding: 1em;
     border: 2px solid #542D9E;
 }
 
-.info{
+.info {
     text-align: justify;
 }
 
 /* Centralised vs. Decentralised */
-#CvD-container{
+#CvD-container {
     margin: 1em;
     background-color: #F04573;
-  
+
 }
 
-#CvD-div{
+#CvD-div {
     width: auto;
-    margin-top:1em;
-    padding:1em;
+    margin-top: 1em;
+    padding: 1em;
 }
 
-#CvD-div h2{
-    color:#F9F871;
+#CvD-div h2 {
+    color: #F9F871;
     text-align: center;
 }
 
-.CvD-overview{
-  
+.CvD-overview {
+
     padding: 1em;
 }
 
-.CvD-overview h3{
-    color:#F9F871;
+.CvD-overview h3 {
+    color: #F9F871;
 }
 
-.CvD-overview .info{
-    color:white;
-}
-
-.CvD-box{
-  
-    padding: 1em;
-}
-
-.CvD-box h3{
-    color:#F9F871;
-}
-
-.CvD-box .info{
+.CvD-overview .info {
     color: white;
 }
 
-.accordion__button{
+.CvD-box {
+
+    padding: 1em;
+}
+
+.CvD-box h3 {
+    color: #F9F871;
+}
+
+.CvD-box .info {
+    color: white;
+}
+
+.accordion__button {
     display: block;
     width: 100%;
-    margin-top:5px;
+    margin-top: 5px;
     padding: 10px;
-    border:2px solid white;
+    border: 2px solid white;
     outline: none;
     cursor: pointer;
     background-color: #F04573;
@@ -332,12 +332,12 @@ nav{
     transition: background-color 0.2s;
 }
 
-.accordion__button__Eth{
+.accordion__button__Eth {
     display: block;
     width: 100%;
-    margin-top:5px;
+    margin-top: 5px;
     padding: 10px;
-    border:2px solid white;
+    border: 2px solid white;
     outline: none;
     cursor: pointer;
     background-color: #542D9E;
@@ -347,17 +347,26 @@ nav{
     transition: background-color 0.2s;
 }
 
-.accordion__button::after{
+.accordion__button::after {
     content: '\25be';
     float: right;
     transform: scale(1.5);
 }
-.accordion__button--active + .accordion__content{display:block}
-.accordion__button--active{background:#542D9E}
-.accordion__button--active::after{content: '\25b4'}
 
-.accordion__content{
-    
+.accordion__button--active+.accordion__content {
+    display: block
+}
+
+.accordion__button--active {
+    background: #542D9E
+}
+
+.accordion__button--active::after {
+    content: '\25b4'
+}
+
+.accordion__content {
+
     display: none;
     overflow: auto;
 
@@ -365,7 +374,7 @@ nav{
     background: #F04573;
 }
 
-.accordion__content__eth{
+.accordion__content__eth {
     display: none;
     overflow: auto;
 
@@ -379,46 +388,46 @@ nav{
 /* Proof of Stake vs Proof of Work */
 
 
-#PoSW-div{
-    margin-top:1em;
-    width:100%;
-   
-}
-
-#PoSW-div h2{
-    color: #542D9E;
-    text-align: center;
-}
-
-#PoSW-info-container{
-    display: flex;
-    flex-wrap: wrap;
-    
-
-}
-
-.POSW-title{
+#PoSW-div {
+    margin-top: 1em;
     width: 100%;
 
 }
 
-.PoSW-box h3{
+#PoSW-div h2 {
+    color: #542D9E;
+    text-align: center;
+}
+
+#PoSW-info-container {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.POSW-title {
+    width: 100%;
+
+}
+
+.PoSW-box h3 {
     color: #F04573;
     text-align: center;
-    
+
 }
 
 
-#PoSW-info-container > *{
-    flex-basis:100%;
+#PoSW-info-container>* {
+    flex-basis: 100%;
     border: 5px solid #F9F871;
     margin: 1em;
     padding: 1em;
     overflow: auto;
-   
+
 }
 
-.PoSW-vid iframe{
+.PoSW-vid iframe {
     padding: 1em 3em;
 }
 
@@ -426,78 +435,78 @@ nav{
 
 /* What are Tokenomics */
 
-#total-page-section{
+#total-page-section {
     margin: 1em;
 }
 
-#WaT-title{
-    width:auto;
+#WaT-title {
+    width: auto;
     margin: 1em;
 }
 
-#WaT-title h2{
+#WaT-title h2 {
     text-align: center;
     color: #542D9E;
 }
 
-.WaT-info{
+.WaT-info {
     margin: 0 1em;
     padding: 1em;
-   
-    background-image: linear-gradient(to left, rgba(84,45,158, 1), rgba(240,69,115, 1));
+
+    background-image: linear-gradient(to left, rgba(84, 45, 158, 1), rgba(240, 69, 115, 1));
 }
 
-.WaT-info .info{
+.WaT-info .info {
     color: white;
     padding-top: 1em;
 }
 
-.tokenomics-heading{
-    color:white;
+.tokenomics-heading {
+    color: white;
 }
 
-#why-important-container{
+#why-important-container {
     display: flex;
     flex-wrap: wrap;
 
     justify-content: space-evenly;
 
     margin: 1em;
-   
+
 }
 
-.tokenomics-boxes{
-    
+.tokenomics-boxes {
+
     margin-bottom: 20px;
     padding: 1em;
     border: 2px solid #F04573;
 
     width: 100%;
-    height:auto;
+    height: auto;
 }
 
-.token-title-div{
+.token-title-div {
     width: 100%;
 }
 
-.tokenomics-boxes h3{
+.tokenomics-boxes h3 {
     padding-bottom: .6em;
     text-align: center;
     color: #542D9E;
 }
 
-.important{
+.important {
     padding-bottom: 1em;
 }
 
 /* tokenomics video */
- 
-#tokenomics-video-section{
+
+#tokenomics-video-section {
     margin: 1em;
-  
+
 }
 
-#video-text{
+#video-text {
     text-align: center;
     font-weight: bold;
     color: #F9F871;
@@ -506,319 +515,317 @@ nav{
 
 /* How To Buy Page */
 
-#buying-title{
+#buying-title {
     width: auto;
     margin: 1em;
 }
 
-#buying-title h2{
+#buying-title h2 {
     text-align: center;
     color: #542D9E;
 }
 
-#DEX-CEX-contatiner{
-   display: flex;
-   
+#DEX-CEX-contatiner {
+    display: flex;
+
 }
 
-.DEX-CEX-box{
+.DEX-CEX-box {
     border: 3px solid #F04573;
-    margin: 15px; 
+    margin: 15px;
 }
 
 
-.DEX-CEX-titles h3{
+.DEX-CEX-titles h3 {
     padding-top: 1em;
     text-align: center;
     color: #542D9E;
 }
 
-.DEX-CEX-box p{
+.DEX-CEX-box p {
     margin: 1em;
 }
 
-.DEX-CEX-box h4{
+.DEX-CEX-box h4 {
     margin: .75em;
 }
 
-.how{
+.how {
     color: #F04573;
     font-size: 1.2em;
 }
 
-.benefits{
+.benefits {
     font-size: 1.2em;
     color: green;
 }
 
-.drawbacks{
+.drawbacks {
     color: red;
     font-size: 1.2em;
 }
 
-.top-x{
+.top-x {
     font-size: 1.3em;
 }
 
-.xchange-section{
+.xchange-section {
     margin-left: 2.7em;
     margin-bottom: 10px;
 }
 
-.xchange-list li a{
-    color:#542D9E;
-    
+.xchange-list li a {
+    color: #542D9E;
+
 }
 
-.xchange-list li a:hover{
-    color:#F04573;
+.xchange-list li a:hover {
+    color: #F04573;
 }
 
 
 /* Footer css */
-footer{
+footer {
 
     display: flex;
-   
+
     flex-direction: row;
-    background: rgba(220,220,220,0.4);
+    background: rgba(220, 220, 220, 0.4);
 
-    
-    padding:1.5em;
 
-    bottom:0; width: 100%;
-    
+    padding: 1.5em;
+
+    bottom: 0;
+    width: 100%;
+
 }
 
 
-footer > *{
+footer>* {
     flex-basis: 100%;
 }
 
-.links{
+.links {
     text-align: center;
 }
 
-.links li{
+.links li {
     display: inline;
     text-decoration: none;
 }
-@media only screen and (min-width: 2000px){
-    #cover-text{    
-        background-color:#F04573;
-    
+
+@media only screen and (min-width: 2000px) {
+    #cover-text {
+        background-color: #F04573;
+
         bottom: 30px;
         right: 1700px;
 
     }
 
-    .logo{
+    .logo {
         font-size: 2.5em;
     }
 
-    li, a{
+    li,
+    a {
         font-size: 1.3em;
     }
 }
 
-@media only screen and (max-width: 1630px){
-    nav{
-        display:block; 
+@media only screen and (max-width: 1630px) {
+    nav {
+        display: block;
         align-items: center;
         padding: 30px 10%;
     }
 
-    #logo-href{
+    #logo-href {
         text-align: center;
     }
 
-    .menu{
+    .menu {
         align-items: center;
         padding-top: 5px;
     }
 }
 
-@media screen and (max-width: 1263px){
+@media screen and (max-width: 1263px) {
 
-  
-    .menu li{
+
+    .menu li {
         display: inline-block;
         padding: 0px 10px;
     }
-    
-    .menu a{
+
+    .menu a {
         border: 2px solid white;
         text-decoration: none;
         padding: 8px;
     }
-    
-    .menu li a:hover{
+
+    .menu li a:hover {
         transition: all 0.3s ease 0s;
         border: 2px solid #542D9E;
     }
-    
+
     .menu a.active {
         border: 2px solid #542D9E;
         padding: 8px;
-        
+
     }
 }
 
-@media only screen and (max-width: 1088px){
-    .menu li{
+@media only screen and (max-width: 1088px) {
+    .menu li {
         display: inline-block;
         padding: 0px 5px;
     }
-    
-    .menu a{
+
+    .menu a {
         border: 2px solid white;
         text-decoration: none;
         padding: 5px;
     }
-    
-    .menu li a:hover{
+
+    .menu li a:hover {
         transition: all 0.3s ease 0s;
         border: 2px solid #542D9E;
     }
-    
+
     .menu a.active {
         border: 2px solid #542D9E;
         padding: 5px;
-        
+
     }
 
-    #hero-image{
-        
-        height:600px;
-        width:100%;
+    #hero-image {
+
+        height: 600px;
+        width: 100%;
         background: url('../images/btcImgComp.jpeg') no-repeat center center;
-        
+
     }
 
-    #cover-text{
-        background-color:#37367b;
+    #cover-text {
+        background-color: #37367b;
     }
 }
 
-@media only screen and (max-width: 1000px){
-    
-    nav{
-        display:flex;         
+@media only screen and (max-width: 1000px) {
+
+    nav {
+        display: flex;
     }
 
-    .nav-ul{
-        display:none;
+    .nav-ul {
+        display: none;
         width: 100%;
         flex-direction: column;
     }
 
-    .nav-ul.show{
+    .nav-ul.show {
         display: flex;
     }
 
-    .hamburger{
+    .hamburger {
         display: block;
     }
 
-    .nav-ul li a{
-        margin:5px;
+    .nav-ul li a {
+        margin: 5px;
     }
 
-    .menu a{
+    .menu a {
         padding: 10px;
     }
 
     .menu a.active {
         padding: 10px;
-        
+
     }
 
 }
 
-@media only screen and (max-width: 1000px){
-    #first-2-boxes-container{    
-        display:flex;
+@media only screen and (max-width: 1000px) {
+    #first-2-boxes-container {
+        display: flex;
         flex-wrap: wrap;
     }
-    
-    #first-2-boxes-container #f2b-flex{
+
+    #first-2-boxes-container #f2b-flex {
         flex-basis: 100%;
     }
 
-    #DEX-CEX-contatiner{
+    #DEX-CEX-contatiner {
         display: flex;
-        flex-wrap:wrap;
-        
-     }
-     
-    .DEX-CEX-box #DCB-flex{
-        flex-basis: 100%; 
-     }
+        flex-wrap: wrap;
+
+    }
+
+    .DEX-CEX-box #DCB-flex {
+        flex-basis: 100%;
+    }
 }
 
-@media only screen and (max-width:768px){
-    #cover-text{
+@media only screen and (max-width:768px) {
+    #cover-text {
 
         font-size: 60%;
-    
+
         width: 400px;
         height: 100px;
 
         margin: 0 1em;
         padding: 10px;
-        
-        background-color:#37367b;
-    
+
+        background-color: #37367b;
+
         bottom: 3em;
-        
+
         position: absolute;
-    
+
     }
 }
 
-@media only screen and (max-width: 600px){
-    footer{
+@media only screen and (max-width: 600px) {
+    footer {
         display: flex;
         flex-direction: column;
     }
-    
-    footer > *{
+
+    footer>* {
         flex-basis: 100%;
     }
-    
-    .links{
+
+    .links {
         text-align: center;
         margin: 6px;
     }
-    
-    .links li{
+
+    .links li {
         display: inline;
         text-decoration: none;
     }
 
-    #cover-text{
+    #cover-text {
         display: none;
     }
-    
+
 }
 
 @media only screen and (max-width: 425px) {
-    .fa-ethereum{
+    .fa-ethereum {
         font-size: 1em;
     }
 
-    .logo{
+    .logo {
         font-size: 1.75em;
     }
 
-    li,a{
+    li,
+    a {
         font-size: 1em;
 
     }
 }
-
-
-
-
-
-
