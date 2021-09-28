@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-
+/* entire page */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: none;
-
 }
 
 html {
-
     scroll-behavior: smooth;
 }
-
 
 body {
     font-family: Work Sans, sans-serif;
@@ -23,7 +20,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-
 }
 
 main {
@@ -39,7 +35,6 @@ h3 {
     color: #252525;
 }
 
-
 p {
     font-family: Space Mono, sans-serif;
 }
@@ -50,9 +45,7 @@ p {
     padding-bottom: 56.25%;
     height: 0;
     margin-top: 1em;
-
 }
-
 
 .video-container iframe {
     position: absolute;
@@ -64,7 +57,6 @@ p {
 }
 
 /* heading and logo */
-
 li,
 a {
     font-family: Work Sans, sans-serif;
@@ -113,7 +105,7 @@ nav {
     outline: none;
 }
 
-/* END of burger menu */
+/* Nav Bar */
 
 .nav-ul li a {
     transition: all 0.3s ease 0s;
@@ -138,33 +130,27 @@ nav {
 .menu a.active {
     border: 2px solid #542D9E;
     padding: 12px;
-
 }
 
 /* hero image */
 #hero-outer {
-
     height: 600px;
     width: 100%;
     position: relative;
-
     overflow: hidden;
-
 }
 
 #hero-image {
-
     height: 600px;
     width: 100%;
     background: url('../images/hero_image_main1.jpeg') no-repeat center center;
+    background-color: lightgrey;
 
     /* animates zoom effect on loading page */
 
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-
-    background-color: lightgrey;
 }
 
 /* creates the level of zoom for hero image */
@@ -172,31 +158,23 @@ nav {
     from {
         transform: scale(1);
     }
-
     to {
         transform: scale(1.1);
     }
 }
 
-
 #cover-text {
-
     font-size: 80%;
     font-family: Space Mono, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 400px;
     height: 175px;
     padding: 10px;
-
-
     background-color: rgba(177, 0, 253, .70);
-
     bottom: 30px;
     right: 150px;
     position: absolute;
-
 }
 
 #cover-text h2 {
@@ -269,7 +247,6 @@ nav {
 #CvD-container {
     margin: 1em;
     background-color: #F04573;
-
 }
 
 #CvD-div {
@@ -284,7 +261,6 @@ nav {
 }
 
 .CvD-overview {
-
     padding: 1em;
 }
 
@@ -297,7 +273,6 @@ nav {
 }
 
 .CvD-box {
-
     padding: 1em;
 }
 
@@ -358,10 +333,8 @@ nav {
 }
 
 .accordion__content {
-
     display: none;
     overflow: auto;
-
     padding: 5px 0;
     background: #F04573;
 }
@@ -369,7 +342,6 @@ nav {
 .accordion__content__eth {
     display: none;
     overflow: auto;
-
     padding: 5px 0;
     background: white;
     color: black;
@@ -380,7 +352,6 @@ nav {
 #PoSW-div {
     margin-top: 1em;
     width: 100%;
-
 }
 
 #PoSW-div h2 {
@@ -400,7 +371,6 @@ nav {
 .PoSW-box h3 {
     color: #F04573;
     text-align: center;
-
 }
 
 #PoSW-info-container>* {
@@ -409,7 +379,6 @@ nav {
     margin: 1em;
     padding: 1em;
     overflow: auto;
-
 }
 
 .PoSW-vid iframe {
@@ -417,9 +386,6 @@ nav {
 }
 
 /* TOKENOMICS PAGE */
-
-/* What are Tokenomics */
-
 #total-page-section {
     margin: 1em;
 }
@@ -437,7 +403,6 @@ nav {
 .WaT-info {
     margin: 0 1em;
     padding: 1em;
-
     background-image: linear-gradient(to left, rgba(84, 45, 158, 1), rgba(240, 69, 115, 1));
 }
 
@@ -453,19 +418,14 @@ nav {
 #why-important-container {
     display: flex;
     flex-wrap: wrap;
-
     justify-content: space-evenly;
-
     margin: 1em;
-
 }
 
 .tokenomics-boxes {
-
     margin-bottom: 20px;
     padding: 1em;
     border: 2px solid #F04573;
-
     width: 100%;
     height: auto;
 }
@@ -488,7 +448,6 @@ nav {
 
 #tokenomics-video-section {
     margin: 1em;
-
 }
 
 #video-text {
@@ -512,14 +471,12 @@ nav {
 
 #DEX-CEX-contatiner {
     display: flex;
-
 }
 
 .DEX-CEX-box {
     border: 3px solid #F04573;
     margin: 15px;
 }
-
 
 .DEX-CEX-titles h3 {
     padding-top: 1em;
@@ -561,32 +518,23 @@ nav {
 
 .xchange-list li a {
     color: #542D9E;
-
 }
 
 .xchange-list li a:hover {
     color: #F04573;
 }
 
-
 /* Footer css */
 footer {
-
     display: flex;
-
     flex-direction: row;
     background: rgba(220, 220, 220, 0.4);
-
-
     padding: 1.5em;
-
     bottom: 0;
     width: 100%;
-
 }
 
-
-footer>* {
+footer> * {
     flex-basis: 100%;
 }
 
@@ -602,17 +550,15 @@ footer>* {
 #riyadh {
     padding: 5px;
     color: #542D9E;
-    align-items: right;
-
 }
+
+/* Media Queries */
 
 @media only screen and (min-width: 2000px) {
     #cover-text {
         background-color: #F04573;
-
         bottom: 30px;
         right: 1700px;
-
     }
 
     .logo {
@@ -643,8 +589,6 @@ footer>* {
 }
 
 @media screen and (max-width: 1263px) {
-
-
     .menu li {
         display: inline-block;
         padding: 0px 10px;
@@ -688,15 +632,12 @@ footer>* {
     .menu a.active {
         border: 2px solid #542D9E;
         padding: 5px;
-
     }
 
     #hero-image {
-
         height: 600px;
         width: 100%;
         background: url('../images/btcimage.jpeg') no-repeat center center;
-
     }
 
     #cover-text {
@@ -705,7 +646,6 @@ footer>* {
 }
 
 @media only screen and (max-width: 1000px) {
-
     nav {
         display: flex;
     }
@@ -734,9 +674,7 @@ footer>* {
 
     .menu a.active {
         padding: 10px;
-
     }
-
 }
 
 @media only screen and (max-width: 1000px) {
@@ -752,7 +690,6 @@ footer>* {
     #DEX-CEX-contatiner {
         display: flex;
         flex-wrap: wrap;
-
     }
 
     .DEX-CEX-box #DCB-flex {
@@ -762,21 +699,14 @@ footer>* {
 
 @media only screen and (max-width:768px) {
     #cover-text {
-
         font-size: 60%;
-
         width: 400px;
         height: 100px;
-
         margin: 0 1em;
         padding: 10px;
-
         background-color: #37367b;
-
         bottom: 3em;
-
         position: absolute;
-
     }
 }
 
@@ -786,7 +716,7 @@ footer>* {
         flex-direction: column;
     }
 
-    footer>* {
+    footer> * {
         flex-basis: 100%;
     }
 
@@ -818,6 +748,5 @@ footer>* {
     li,
     a {
         font-size: 1em;
-
     }
 }

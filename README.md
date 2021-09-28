@@ -202,11 +202,15 @@ Here describes the main features of the website and what the user can expect whe
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
-    * [index.html](documents/testing/w3c.png)
-    * [tokenomics.html](documents/testing/token123.png)
-    * [howTobuy.html](documents/testing/h2b.png)
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](documents/testing/css.png)
+![index.html](documents/readme/validation.png)
+
+![tokenomics.html](documents/readme/validation2.png)
+
+![howTobuy.html](documents/readme/validation3.png)
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - 
+![Results](documents/testing/css.png)
 
 ## Website Testing (Solving Issues):
 ---
@@ -266,7 +270,7 @@ In order to get around this I decided to use a smaller image when the user is vi
 
 I want to note that the image chosen which can be found in the Credits section, has blurred corners which can been seen on the website. This is not a resolution issue on my part and is part of the picture so I am noting it here so I do not get marked down for this. 
 
-
+## Proof of Browser Compatibility
 ---
 
 The output of Cryptools when being viewed on Microsoft Edge can be seen below:
