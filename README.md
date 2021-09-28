@@ -51,7 +51,7 @@ Cryptools also covers the basics of the two ways cryptos are generated i.e Proof
 
     * Typography:
 
-        - The 'Space Mono' font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly or the web browser not being able to support the Google Font. 'Shrikhand' is used for the logo and is a clean and modern font, so it is both attractive and appropriate. Finally 'Work Sans' is used for headings. 
+        - The [Space Mono](https://fonts.google.com/specimen/Space+Mono?query=space+mono) font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly or the web browser not being able to support the Google Font. [Shrikhand](https://fonts.google.com/specimen/Shrikhand?query=shrik) is used for the logo and is a clean and modern font, so it is both attractive and appropriate. Finally [Work Sans](https://fonts.google.com/specimen/Work+Sans?query=Work+Sans) is used for headings. 
 
     * Imagery & Videos:
 
@@ -168,8 +168,8 @@ Here describes the main features of the website and what the user can expect whe
 
 ## Frameworks, Libraries & Programs Used:
 
-1. [Hover.css](https://www.w3schools.com/cssref/sel_hover.asp):
-    * Hover.css was used on the navigation bar to help identify to the user what section they are about to select
+1. [GitPod](https://www.gitpod.io/):
+    * GitPod was the IDE used to create the site
 
 2. [Google Fonts](https://fonts.google.com/):
     * Google fonts were used to import the 'Shrikhand', 'Work Sans' and 'Space Mono' font into the style.css file which is used on all pages throughout the project.
@@ -188,6 +188,9 @@ Here describes the main features of the website and what the user can expect whe
 
 7. [Balsamiq](https://balsamiq.com/):
     * Balsamiq was used to create the wireframes during the design process.
+
+8. [TinyPNG](https://tinypng.com/):
+    * This was used to compress all images used in the website as well as the README.md
 
 
 # Testing ~
@@ -285,6 +288,28 @@ The output of Cryptool when being viewed on Firefox can be seen below:
 
 ![firefox](documents/readme/firefox.png)
 
+## Proof of Responsiveness 
+---
+Cryptools when being viewed at 1600px:
+
+![1600px](documents/testing/1600px.png)
+
+Cryptools when being viewed at 1440px:
+
+![1140px](documents/testing/1140px.png)
+
+Cryptools when being viewed at 1024px: 
+
+![1024px](documents/testing/1024px.png)
+
+Cryptools when being viewed at 768px:
+
+![768px](documents/testing/768px.png)
+
+Cryptools when being viewed at mobile (425px):
+
+![425px](documents/testing/425px.png)
+
 ## Testing User Stories from User Experience (UX) Section
 
 * ### First Time Visitor Goals:
@@ -318,6 +343,9 @@ The output of Cryptool when being viewed on Firefox can be seen below:
 
         * The user would already be comfortable with the website layout and can easily check the footer for updated YouTubers or articles they can go to allowing them to learn more.
 
+## Bugs
+
+There is only one bug that I have identified with Cryptools and that is with the smooth scroll effect on navigation bar. When you click a heading the smooth scroll effect should take the user to the relevant section however I have noticed that sometimes when clicked, the page wont move and it has to be clicked again in order for the effect to work. This does not happen every time it is clicked, I found that it is random and I am not sure why it happens. However it should not happen at all hence I am noting it here as a bug I am aware of. 
 
 # Deployment ~
 
@@ -400,6 +428,6 @@ $ git clone https://github.com/RiyadhKh4n/cryptools.git
 ## Code
 When developing the website I spent alot of time breaking down how I would code each section and what I needed to implement to ensure it looked and worked how I wanted it to. Therefore the vast majority of the code is orginal and my own however there were times where I did need help in progressing and when this happened I went on [slack](https://slack.com/intl/en-gb/) to ask fellow students if they knew how to help. If this did not work I would use [StackOverflow](https://stackoverflow.com/) which more often then not allowed me to get to the bottom of my problem and progress in developing Cryptools. I was also inspired by the Love Running project and used what I learnt from there as guide when I got stuck, as this demo project taught me alot and was a good foundation when developing this project.
 
-The only code in the webiste that was copied from a third - party was the burger menu and collapsible buttons. I implemented the burger menu on the back of my meeting with my tutor as they suggested it would be the easiest way to solve the issue I was having, as my nav bar takes up alot of space due to the length of the items and making it responsive for mobile would have be an issue. Therefore, I used [this](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) w3School lesson as well as a [YouTube video](https://www.youtube.com/watch?v=ydZc17rlR5E&list=PLt9gBsKEdOaxKmcaKgRGVkKurX84uhF3r&index=9) in order to successfully implement the burger menu. When developing Cryptools, I realised that my homepage was very text heavy which would cause users to have a negative experience as too much text is very overwhelming, thus I wanted to add a collapsible button which the user can select if they wanted to know more about a particular section. Why not just remove some of the text? Although this would have made my problem easier I wanted to keep the information as I believe it is important and valuable to know if you want to learn more about cryptocurrencies and removing is would sacrafice this. As a result I did some research and found out how to implement this feature using [this](https://www.w3schools.com/howto/howto_js_collapsible.asp) w3schools tutorial as well as help from YouTube.
+The only code in the webiste that was copied from a third - party was the burger menu and collapsible buttons. I implemented the burger menu on the back of my meeting with my Mentor as they suggested it would be the easiest way to solve the issue I was having, as my nav bar takes up alot of space due to the length of the items and making it responsive for mobile would have be an issue. Therefore, I used [this](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) w3School lesson as well as a [YouTube video](https://www.youtube.com/watch?v=ydZc17rlR5E&list=PLt9gBsKEdOaxKmcaKgRGVkKurX84uhF3r&index=9) in order to successfully implement the burger menu. When developing Cryptools, I realised that my homepage was very text heavy which would cause users to have a negative experience as too much text is very overwhelming, thus I wanted to add a collapsible button which the user can select if they wanted to know more about a particular section. Why not just remove some of the text? Although this would have made my problem easier I wanted to keep the information as I believe it is important and valuable to know if you want to learn more about cryptocurrencies and removing is would sacrafice this. As a result I did some research and found out how to implement this feature using [this](https://www.w3schools.com/howto/howto_js_collapsible.asp) w3schools tutorial as well as help from YouTube.
  
 ---
