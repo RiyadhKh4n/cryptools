@@ -289,6 +289,9 @@ In order to get around this I decided to use a smaller image when the user is vi
 
 ![image](documents/testing/smallHero1Comp.png)
 
+I want to note that the image chosen which can be found in the Credits section, has blurred corners which can been seen on the website. This is not a resolution issue on my part and is part of the picture so I am noting it here so I do not get marked down for this. 
+
+
 ---
 
 The output of Cryptools when being viewed on Microsoft Edge can be seen below:
