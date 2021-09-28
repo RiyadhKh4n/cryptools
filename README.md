@@ -213,7 +213,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ![howTobuy.html](documents/readme/validation3.png)
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - 
-![Results](documents/testing/css.png)
+
+![Results](documents/readme/css123.png)
 
 ## Website Testing (Solving Issues):
 ---
@@ -315,7 +316,9 @@ Cryptools when being viewed at mobile (425px):
 * ### First Time Visitor Goals:
     1. As a First Time Visitor, I want to be able to easily understand the intention of the website and to leave with knowledge about cryptocurencies.
 
-        * When the user lands on the homepage of the website, they are greeted with an image of a bitcoin as well as the heading 'Introduction to Crypto' which immediately signifies that this website is about cryptocurrencies and is an informative website.
+        * When the user lands on the homepage of the website, they are greeted with an image of a bitcoin as well as the heading 'Introduction to Crypto' which immediately signifies that this website is about cryptocurrencies and is an informative website. As well as this the website and all headings are crypto related.
+
+        ![title](documents/testing/title123.png)
 
     2. As a First Time Visitor, I was to ensure I can easily navigate through the webiste and ensure all links direct me to the correct section of the website.
 
@@ -323,12 +326,19 @@ Cryptools when being viewed at mobile (425px):
 
     3. As a First Time Visitor, I want ensure no linked videos play without my discretion and all navigation links open in a new tab.
 
-        * When they go on the website, they are greeted with several YouTube videos which they can play to learn more about the specific section. The user has full control of the volume, playback speed and pause and play. Meaning I have met this criteria.
+        * When they go on the website, they are greeted with several YouTube videos which they can play to learn more about the specific section. The user has full control of the volume, playback speed and pause and play. Meaning I have met this criteria. The image below shows the the videos dont play until a user choses.
+
+        ![video](documents/testing/video1.png)
+
+        When clicking on one of the links in the footer the page loads in a new tab
+        ![bitboy](documents/testing/bitboy.png)
 
 * ### Returning Visitor Goals:
     1. As a Returning Visitor, I want to find information about cryptocurrencies to be accurate and up-to-date.
 
-        * When going on the website users are met with infromation from reliable sources which they can ensure is factual and up - to  - date, all sources are provided in the Credits sections. As popularity for the website increases I will add more sections which they can navigate to in order to learn more about the industry.
+        * When going on the website users are met with infromation from reliable sources which they can ensure is factual and up - to  - date, all sources are provided in the Credits sections. As popularity for the website increases I will add more sections which they can navigate to in order to learn more about the industry. 
+
+        ![sources](documents/testing/sources1.png)
 
     2. As a Returning Visitor, I want to find new pages added to the website which I can use to further expand my understanding on this topic.
 
@@ -343,9 +353,20 @@ Cryptools when being viewed at mobile (425px):
 
         * The user would already be comfortable with the website layout and can easily check the footer for updated YouTubers or articles they can go to allowing them to learn more.
 
+        ![footer](documents/readme/footer.png)
+
 ## Bugs
 
 There is only one bug that I have identified with Cryptools and that is with the smooth scroll effect on navigation bar. When you click a heading the smooth scroll effect should take the user to the relevant section however I have noticed that sometimes when clicked, the page wont move and it has to be clicked again in order for the effect to work. This does not happen every time it is clicked, I found that it is random and I am not sure why it happens. However it should not happen at all hence I am noting it here as a bug I am aware of. 
+
+## Features Left To Implement
+Some future features I would like to implement into Cryptools:
+
+* Live coin price action page
+* Technical Analysis For Beginners
+* Spotting 10x gems section
+* Top Ecosystems page
+
 
 # Deployment ~
 
