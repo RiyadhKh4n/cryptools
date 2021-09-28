@@ -274,7 +274,7 @@ In order to get around this I decided to use a smaller image when the user is vi
 
 I want to note that the image chosen which can be found in the Credits section, has blurred corners which can been seen on the website. This is not a resolution issue on my part and is part of the picture so I am noting it here so I do not get marked down for this. 
 
-## Proof of Browser Compatibility
+##  Browser Compatibility & Responsivness
 ---
 
 The output of Cryptools when being viewed on Microsoft Edge can be seen below:
@@ -289,8 +289,6 @@ The output of Cryptool when being viewed on Firefox can be seen below:
 
 ![firefox](documents/readme/firefox.png)
 
-## Proof of Responsiveness 
----
 Cryptools when being viewed at 1600px:
 
 ![1600px](documents/testing/1600px.png)
