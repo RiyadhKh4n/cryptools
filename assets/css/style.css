@@ -156,7 +156,7 @@ nav {
 
     height: 600px;
     width: 100%;
-    background: url('../images/heroImage1.jpeg') no-repeat center center;
+    background: url('../images/hero_image_main1.jpeg') no-repeat center center;
 
     /* animates zoom effect on loading page */
 
@@ -695,7 +695,7 @@ footer>* {
 
         height: 600px;
         width: 100%;
-        background: url('../images/btcImgComp.jpeg') no-repeat center center;
+        background: url('../images/btcimage.jpeg') no-repeat center center;
 
     }
 

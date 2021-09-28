@@ -7,34 +7,9 @@ Cryptools is a website focused to enhance the knowledge of people who want to le
 Cryptools also covers the basics of the two ways cryptos are generated i.e Proof of Stake and Proof of Work and the top coins within each category. Furthermore users are able to learn to value of Tokenomics which is a way to differentiate good coins and which coins to avoid. Finally, users are able to get their foot in the door by reading the 'Where to Buy' section whcih will give them all the valuable informaiton they need when making that important first step.  
 
 ---
-Image from AmIResponisve goes here
+![amIResponsive](documents/readme/amiresponsvie1.png)
 
 ---
-
-# Contents
-<ul>
-    <li>
-        <a href="#user Experience (UX)"><strong>User Experience (UX)</strong></a>               
-    </li>
-    <li>
-        <a href="#design"><strong>Design</strong></a>
-    </li>
-    <li>
-        <a href="#features"><strong>Features</strong></a>   
-    </li>
-    <li>
-        <a href="#technologies"><strong>Technologies</strong></a>
-    </li>
-    <li>
-        <a href="#testing"><strong>Testing</strong></a>
-    </li>
-    <li>
-       <a href="#deployment"><strong>Depolyment</strong></a> 
-    </li>
-    <li>
-       <a href="#credits"><strong>Credits</strong></a> 
-    </li>
-</ul>
 
 
 # User Experience (UX) ~
@@ -72,7 +47,7 @@ Image from AmIResponisve goes here
 
         - The three main colours for Cryptools are #542D9E, #F9F871 and #F04573. This colour palette was generated for me by using [ColorSpace](https://mycolor.space/) and selecting their generic gradient, of course black and white are prominent colours in the website aswell and are used interchangeably. I tried to stay as consistent as possible however depending on the sections the main colour changes in order to break up the text. There are also times where I mixed two colours together to form a gradient background. For the footer, in order for the text on top to easily stand out I used rgba(220,220,220,0.4) which is a light grey.
 
-        ![image](documents/READMEImages/colorComp.png)
+        ![image](documents/readme/colorcomp.png)
 
     * Typography:
 
@@ -114,7 +89,7 @@ Image from AmIResponisve goes here
 
     * ### Where to Buy Page Wireframe
 
-    ![WHere To Buy Wireframe](documents/wireframes/where2buy.png)
+    ![WHere To Buy Wireframe](documents/wireframes/where_to_buy.png)
 
 
 # Features ~
@@ -127,58 +102,58 @@ Here describes the main features of the website and what the user can expect whe
 
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous bage via the 'back' button.
 
-        ![Intro](documents/READMEImages/NavBarComp.png)
+        ![Intro](documents/readme/navbar.png)
 
 * The landing page image
     - The landing page includes a photograph with text overlay to improve aesthetic appearance of the page and to not bombard the user with text as soon as they land on the page. 
 
     - This section introduces the user to ______ with an eye catching animation to grab their attention
 
-      ![Hero](documents/READMEImages/HeroImageComp.png)
+      ![Hero](documents/readme/heroimage.png)
 
 * Intro To Crypto Section
     - This section is the first part of the webpage the user will see. It provides an overview of what crypto is, the main usecases as well as why the technology is important.
     - It introduces the user to the topic and will give them a basic understanding of what the purpose of crypto is and the power it can play
     
-      ![intro](documents/READMEImages/introComp.png)
-      ![intro.2](documents/READMEImages/understandingComp.png)
-      ![intro.3](documents/READMEImages/ethComp.png)
+      ![intro](documents/readme/intro.png)
+      ![intro.2](documents/readme/understanding.png)
+      ![intro.3](documents/readme/eth.png)
 
 * Centralisation vs. Decentralisation Section
     - This part of the website will help solidify their basic understadning with giving them a brief overview and comparision between the two i.e C vs. D. Getting a strong grasp of this concept is important as this is the whole foundation on what crypto and blockchain is founded on.
 
-      ![CvD](documents/READMEImages/CvDComp.png)
+      ![CvD](documents/readme/cvd.png)
 
 * Proof of Stake vs. Proof of Work Section
     - Getting a grasp of these two concepts is also important as it is only way cryptocurrencies are formed / mined and put into circulation for purchase.
     - Understadning the difference between the two allows the user to be aware of how the price of the coin will fluctuate and gives an insight into potential price action (PA) as halvings and buring occur
 
-    ![PoS](documents/READMEImages/PoSComp.png)
-    ![PosVid](documents/READMEImages/PosVidComp.png)
+    ![PoS](documents/readme/pos.png)
+    ![PosVid](documents/readme/posvid.png)
 
 * Tokenomics Page
     - Tokenomics is the collection of metrics determining the quality and supply of an asset
     - This page will give the user a basic understanding of the complex world of tokenomics and the importance of being able to differentiate between good and bad tokenomics which will allow you to make better investment decisions in the future and help avoid the chance of being involved in a rug pull or scam
 
-    ![token](documents/READMEImages/tokenComp.png)
-    ![token1](documents/READMEImages/token2Comp.png)
-    ![token2](documents/READMEImages/token3Comp.png)
+    ![token](documents/readme/token.png)
+    ![token1](documents/readme/token2.png)
+    ![token2](documents/readme/token3.png)
 
 * Where to Buy Page
     - There are many places to buy crypto now and chosing the right place can be a challenge in itself. This section of the webiste will give users a comprehensive guide of how and where to buy cryptos as well as important aspects like security and the advantages and disadvanatges of certain exchanges
     - Furthermore this page will compare the difference between Decentralised Exchanges (DEXs) and Centralised Exchanges (CEXs) and give the top exchanges for each
 
 
-    ![CEX](documents/READMEImages/CEXComp.png)
-    ![CEX](documents/READMEImages/CEX2Comp.png)
-    ![DEX](documents/READMEImages/DEXComp.png)
-    ![DEX](documents/READMEImages/DEX1Comp.png)
-    ![DEX](documents/READMEImages/DEX3Comp.png)
+    ![CEX](documents/readme/cex_comp.png)
+    ![CEX](documents/readme/cex2.png)
+    ![DEX](documents/readme/dex.png)
+    ![DEX](documents/readme/dex1comp.png)
+    ![DEX](documents/readme/dex3.png)
 
 * Footer
     - This section provides the user with links to cryptocurrency social media accounts as well as articles and Youtubers in the space. These links open in a new window, allowing the user to remain on the Cryptools website also.
 
-    ![footer](documents/READMEImages/foooterComp.png)
+    ![footer](documents/readme/footer.png)
 
 
 ## Features Left to Implement:
@@ -227,21 +202,21 @@ Here describes the main features of the website and what the user can expect whe
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
-    * [index.html](documents/testing/w3cComp1.png)
-    * [tokenomics.html](documents/testing/token123Comp.png)
-    * [howTobuy.html](documents/testing/h2bComp.png)
+    * [index.html](documents/testing/w3c.png)
+    * [tokenomics.html](documents/testing/token123.png)
+    * [howTobuy.html](documents/testing/h2b.png)
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](documents/testing/cssComp.png)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](documents/testing/css.png)
 
 ## Website Testing (Solving Issues):
 ---
 Upon inspection of the colour contrast on the website I am aware of a contrasting issue within the Centralised vs. Decentralised section of the website. When using Chrome Dev Tools over the paragraph elements within this section - which have the colour #FFF applied, the contrast score (under accessibility) gives a value of 3.61 along with a warning, which highlights that there may be a potential issue for people with colour blindness.
 
-![image](documents/testing/ChromeDevTools1.png)
+![image](documents/testing/devtools.png)
 
 I am aware that the ideal score for Contrast is '5' and above and that there should not be a warning sign present and instead a green tick however after some inspection I noticed that the titles in the Centralised vs. Decentralised section, which all have the colour #F9F871 applied to it - which is a yellow - gave a Contrast score of 3.22 and a green tick which is less than the paragraph elements and would actually be harder to see against the #F04573 background comapred to white.   
 
-![image](documents/testing/DevTools(1).png)
+![image](documents/testing/devtools1.png)
 
 After changing the colour of the paragraph elements to see which would improve the score, it turned out that black actually improved the Contrast score significantly and brought it up to 5.8 and a green tick was present. Signifying that instead of white, black was actually the better colour to use when trying to improve the contrast against the pink background. 
 
@@ -252,7 +227,7 @@ However, due to aesthetic and personal reasons I am going to keep the text withi
 --- 
 Another issue I came across is that my footer would not stick to the bottom of the page when there was not enough content to push it down. Although I knew each page would contain enough content to push it down to the bottom and make it stay, I wanted to find a solution that would mean it would automatically stay at the bottom regardless of the amount of content present. Below is an image of the issue I was facing:
 
-![image](documents/testing/footer1Comp.png)
+![image](documents/testing/footer1comp.png)
 
 After doing some looking aorund on Slack I came across a Mentor who posted a 'Dev Tip' that would allow the footer to stay at the bottom of the page no matter how much content there was. Therefore I implemented his code and was able to get my desired output.
 
@@ -270,24 +245,24 @@ main {
 ```
 Here is the new output with the ammeneded code:
 
-![image](documents/testing/EfooterComp.png)
+![image](documents/testing/efooter.png)
 
 ---
 I am aware of an issue that arises to the hero image when the viewport width is set to 2110px and above, the image I chose has dimensions 1920 x 1280 and therefore when viewing at this screen size the hero image has white space to the left and right which makes the homepage not look as intended.
 
-![image](documents/testing/heroImage1Comp.png)
+![image](documents/testing/hero1.png)
 
 In order to make the aesthetics of the website look better when viewing at this screen size, I have added a background colour of lightgrey helping to break up the empty white space and allowing the nav bar and hero image to be visually separated. In addition to this, the cover text hangs over the image into the empty space which is not what I want so I have changed its positioning when viewing at this size so it is aligned more to the right. The new output can be viewed below:
 
-![image](documents/testing/updatedHeroComp.png)
+![image](documents/testing/up_hero.png)
 
 Another issue with the hero image arises when viewing on mobile, this is because the image I chose is fairly large so when vieiwng on a small screen most of the image is cut out which makes the webiste look odd as you only see 1/4 of the image making the landing page look odd.
 
-![image](documents/testing/smallHeroComp.png)
+![image](documents/testing/smallhero1.png)
 
 In order to get around this I decided to use a smaller image when the user is viewing the webiste on mobile that would fit better. This image makes the website look alot cleaner and overall it will improve user engagement. The updated hero image for mobile is below:
 
-![image](documents/testing/smallHero1Comp.png)
+![image](documents/testing/smallhero.png)
 
 I want to note that the image chosen which can be found in the Credits section, has blurred corners which can been seen on the website. This is not a resolution issue on my part and is part of the picture so I am noting it here so I do not get marked down for this. 
 
@@ -296,15 +271,15 @@ I want to note that the image chosen which can be found in the Credits section, 
 
 The output of Cryptools when being viewed on Microsoft Edge can be seen below:
 
-![edge](documents/READMEImages/EdgeComp.png)
+![edge](documents/readme/edge_comp.png)
 
 The output of Cryptools when being viewed on Brave Browser can be seen below:
 
-![brave](documents/READMEImages/braveComp.png)
+![brave](documents/readme/brave.png)
 
 The output of Cryptool when being viewed on Firefox can be seen below:
 
-![firefox](documents/READMEImages/firefoxComp.png)
+![firefox](documents/readme/firefox.png)
 
 ## Testing User Stories from User Experience (UX) Section
 
