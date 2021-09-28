@@ -60,6 +60,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
+    max-height: 80vh;
 }
 
 /* heading and logo */
@@ -203,12 +204,8 @@ nav {
 }
 
 /* Why Should You Care Section */
-
-
 #Intro2Crypto-div {
-
     margin: 1em;
-
 }
 
 #Intro2Crypto-div h2 {
@@ -219,9 +216,7 @@ nav {
 .WhatIsCrypto-div {
     margin: 1em;
     padding: 1em;
-
     background-image: linear-gradient(to left, rgba(84, 45, 158, 1), rgba(240, 69, 115, 1));
-
 }
 
 .WhatIsCrypto-div h3 {
@@ -239,12 +234,9 @@ nav {
 #first-2-boxes-container>* {
     flex-basis: 100%;
     border: 2px solid #542D9E;
-
     margin: 1em;
     padding: 1em;
     overflow: auto;
-
-    display: flex;
     flex-direction: column;
     justify-content: space-between
 }
@@ -383,10 +375,7 @@ nav {
     color: black;
 }
 
-
-
 /* Proof of Stake vs Proof of Work */
-
 
 #PoSW-div {
     margin-top: 1em;
@@ -402,13 +391,10 @@ nav {
 #PoSW-info-container {
     display: flex;
     flex-wrap: wrap;
-
-
 }
 
 .POSW-title {
     width: 100%;
-
 }
 
 .PoSW-box h3 {
@@ -416,7 +402,6 @@ nav {
     text-align: center;
 
 }
-
 
 #PoSW-info-container>* {
     flex-basis: 100%;
@@ -428,7 +413,7 @@ nav {
 }
 
 .PoSW-vid iframe {
-    padding: 1em 3em;
+    padding: 3em;
 }
 
 /* TOKENOMICS PAGE */
