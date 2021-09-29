@@ -157,6 +157,14 @@ Here describes the main features of the website and what the user can expect whe
 
 
 ## Features Left to Implement:
+Some future features I would like to implement into Cryptools:
+
+* Ideally I'd like to add a proper contact form so users can make queries about crypto on any topics they would like to be implemented
+* Live coin price action page so users can see the prices of coins in real - time
+* Technical Analysis For Beginners, allowing users to begin their charting journey
+* Spotting 10x gems section - A page which teaches users how to spot small, low - cap coins which could potentially rocket
+* Top Ecosystems page, would allow users to understand the different chains being developed and why some are better than others, e.g SOL vs ETH.
+
 
 # Technologies ~
 
@@ -356,15 +364,6 @@ Cryptools when being viewed at mobile (425px):
 ## Bugs
 
 There is only one bug that I have identified with Cryptools and that is with the smooth scroll effect on navigation bar. When you click a heading the smooth scroll effect should take the user to the relevant section however I have noticed that sometimes when clicked, the page wont move and it has to be clicked again in order for the effect to work. This does not happen every time it is clicked, I found that it is random and I am not sure why it happens. However it should not happen at all hence I am noting it here as a bug I am aware of. 
-
-## Features Left To Implement
-Some future features I would like to implement into Cryptools:
-
-* Live coin price action page
-* Technical Analysis For Beginners
-* Spotting 10x gems section
-* Top Ecosystems page
-
 
 # Deployment ~
 
