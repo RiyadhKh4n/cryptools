@@ -220,9 +220,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ![howTobuy.html](documents/readme/validation3.png)
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - 
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
 
 ![Results](documents/readme/css123.png)
+
+ - [JSHint](https://jshint.com/)
+
+ ![result](documents/testing/jscomp.png)
 
 ## Website Testing (Solving Issues):
 ---
