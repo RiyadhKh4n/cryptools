@@ -2,9 +2,9 @@
 
 [Link to Cryptools Website Here](https://riyadhkh4n.github.io/cryptools/index.html)
 
-Cryptools is a website focused to enhance the knowledge of people who want to learn and get involved with crypto and the blockchain insdustry. It is an informative website where they can learn 'What the Importance of Crypto is' and why they should care about it. As well as learn the basic fundamntals of centralisation vs. decentralisation and the important role crypto is playing in giving the power back to the people.
+Cryptools is a website focused to enhance the knowledge of people who want to learn and get involved with crypto and the blockchain insdustry. It is an informative website where they can learn 'What the Importance of Crypto is' and why they should care about it. As well as learn the basic fundamentals of centralisation vs. decentralisation and the important role crypto is playing in giving the power back to the people.
 
-Cryptools also covers the basics of the two ways cryptos are generated i.e Proof of Stake and Proof of Work and the top coins within each category. Furthermore users are able to learn to value of Tokenomics which is a way to differentiate good coins and which coins to avoid. Finally, users are able to get their foot in the door by reading the 'Where to Buy' section whcih will give them all the valuable informaiton they need when making that important first step.  
+Cryptools also covers the basics of the two ways cryptos are generated i.e Proof of Stake and Proof of Work. Furthermore users are able to learn to value of Tokenomics which is a way to differentiate good coins and which coins to avoid. Finally, users are able to get their foot in the door by reading the 'Where to Buy' section which will give them all the valuable informaiton they need when making that important first step.  
 
 ---
 ![amIResponsive](documents/readme/amiresponsvie1.png)
@@ -15,7 +15,7 @@ Cryptools also covers the basics of the two ways cryptos are generated i.e Proof
 # User Experience (UX) ~
 
 * ## Vision
-    Cryptools is a specialist website which aims to provide valuable knowledge about the world of cryptocurrencies to people who want to get into the space, whether you are a complete beginner or want to expand what you already know. This website will take you through the core concepts of cryptocurrencies and allow them to gain enough knowledge to begin your investment journey through this crazy space. As someone who is investment in crypto and really believes in the technology behind it, I want to be able to share what I know and allow people to get their foot into this new and exciting world. I want this website to offer a sense of community, I want it to be engaging and to encourage the you into getting involved in the space.
+    Cryptools is a specialist website which aims to provide valuable knowledge about the world of cryptocurrencies to people who want to get into the space, whether you are a complete beginner or want to expand what you already know. This website will take you through the core concepts of cryptocurrencies and allow them to gain enough knowledge to begin their investment journey through this crazy space. As someone who is investment in crypto and really believes in the technology behind it, I want to be able to share what I know and allow people to get their foot into this new and exciting world. I want this website to offer a sense of community, I want it to be engaging and to encourage the you into getting involved in the space.
 
 * ## Aims
     To give crypto newbies an all in one website they can go to when starting their journey, and to allow them to quickly learn the core concepts of this complex industry giving them the opportunity to make smart investment decisions.
